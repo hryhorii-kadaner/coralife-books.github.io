@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 /* line 5, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -110,7 +110,7 @@ body {
 /* line 39, ../sass/style.scss */
 .main-section .main-text h1 {
   font-size: 53px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 /* line 43, ../sass/style.scss */
 .main-section .main-text p {
@@ -296,4 +296,204 @@ body {
 /* line 197, ../sass/style.scss */
 .sec3 .privat[disabled] {
   filter: grayscale(1);
+}
+
+/*****************************************footer*****************************************/
+/* line 203, ../sass/style.scss */
+.col_white_amrc {
+  color: white;
+}
+
+/* line 207, ../sass/style.scss */
+footer {
+  -webkit-clip-path: polygon(0% 0%, 50% 12%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 50% 12%, 100% 0, 100% 100%, 0% 100%);
+  width: 100%;
+  min-height: 1px;
+  height: 100%;
+  padding: 4em 0px 25px 0px;
+  z-index: 1000;
+  font-family: 'Montserrat', serif;
+}
+/* line 217, ../sass/style.scss */
+footer a {
+  color: white !important;
+}
+
+/* line 222, ../sass/style.scss */
+.pt2 {
+  font-family: 'Montserrat', serif;
+  font-size: 18px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* line 229, ../sass/style.scss */
+.headin5_amrc {
+  font-weight: bold;
+}
+
+/* line 233, ../sass/style.scss */
+footer p {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+/* line 240, ../sass/style.scss */
+.mb10 {
+  padding-bottom: 15px;
+}
+
+/* line 244, ../sass/style.scss */
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 16px;
+  padding: 0px 0px 10px 0px;
+}
+/* line 250, ../sass/style.scss */
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+/* line 253, ../sass/style.scss */
+.footer_ul_amrc li a {
+  color: lightgray;
+  transition: .5s;
+}
+/* line 257, ../sass/style.scss */
+.footer_ul_amrc li a:hover {
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+}
+
+/* line 267, ../sass/style.scss */
+.fleft {
+  float: left;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+/* line 273, ../sass/style.scss */
+.padding-right {
+  padding-right: 10px;
+}
+
+/* line 277, ../sass/style.scss */
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  font-size: 1.3em;
+}
+/* line 284, ../sass/style.scss */
+.footer_ul2_amrc li p {
+  display: contents;
+  color: lightgray;
+}
+/* line 289, ../sass/style.scss */
+.footer_ul2_amrc li a {
+  color: lightblue;
+}
+/* line 292, ../sass/style.scss */
+.footer_ul2_amrc li a:hover {
+  text-decoration: underline;
+}
+/* line 297, ../sass/style.scss */
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+  color: white;
+}
+/* line 301, ../sass/style.scss */
+.footer_ul2_amrc li i:hover {
+  color: #ff6777 !important;
+}
+
+/* line 308, ../sass/style.scss */
+.bottom_border {
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+
+/* line 313, ../sass/style.scss */
+.mailto_link {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+}
+/* line 318, ../sass/style.scss */
+.mailto_link a {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+}
+/* line 324, ../sass/style.scss */
+.mailto_link:hover, .mailto_link a:hover {
+  color: #ff6777 !important;
+  text-decoration: unset;
+  transition: .3s;
+}
+
+/* line 331, ../sass/style.scss */
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+/* line 340, ../sass/style.scss */
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+/* line 343, ../sass/style.scss */
+.foote_bottom_ul_amrc li a {
+  color: white;
+  margin: 0 12px;
+}
+
+/* line 350, ../sass/style.scss */
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+  padding: 0;
+}
+/* line 356, ../sass/style.scss */
+.social_footer_ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  float: left;
+}
+/* line 363, ../sass/style.scss */
+.social_footer_ul li i {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  transition: .6s;
+}
+/* line 370, ../sass/style.scss */
+.social_footer_ul li a {
+  width: 42px;
+  height: 42px;
+  line-height: 1.6em;
+  color: white;
+  border: 1px solid #CCC;
+  padding: 8px;
+  border-radius: 50%;
+  transition: .6s;
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+}
+/* line 383, ../sass/style.scss */
+.social_footer_ul li a:hover {
+  color: #ff6777;
+  box-shadow: 0 0 20px white;
 }
