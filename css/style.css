@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap");
-/* line 5, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -159,50 +159,40 @@ body {
     padding-top: 1.5rem;
   }
 }
-/* line 84, ../sass/style.scss */
-.sec2 .descr p {
+/* line 85, ../sass/style.scss */
+.sec2 .descr ul li {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: #286d9d;
   line-height: 1.2;
 }
-@media screen and (min-width: 1280px) {
-  /* line 84, ../sass/style.scss */
-  .sec2 .descr p {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 992px) {
-  /* line 84, ../sass/style.scss */
-  .sec2 .descr p {
-    text-align: center !important;
-    width: 100%;
-  }
+/* line 92, ../sass/style.scss */
+.sec2 .descr ul li:before {
+  content: '\2713   ';
+  color: #ff6777;
+  font-weight: bolder;
+  font-size: 22px;
 }
 @media screen and (max-width: 576px) {
-  /* line 100, ../sass/style.scss */
+  /* line 101, ../sass/style.scss */
   .sec2 .float-md-left {
     float: none !important;
   }
-  /* line 103, ../sass/style.scss */
-  .sec2 .text-left {
-    text-align: center !important;
-  }
 }
-/* line 107, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .sec2 #ifr {
   width: 550px;
   height: 350px;
 }
 @media screen and (max-width: 1280px) {
-  /* line 107, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   .sec2 #ifr {
     width: 100%;
     height: 350px;
   }
 }
 @media screen and (max-width: 1280px) and (max-width: 992px) {
-  /* line 107, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   .sec2 #ifr {
     width: 80%;
     height: 350px;
@@ -210,26 +200,26 @@ body {
 }
 
 @media screen and (max-width: 1280px) and (max-width: 992px) and (max-width: 576px) {
-  /* line 107, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   .sec2 #ifr {
     width: 100% !important;
     height: 30vh !important;
   }
 }
 
-/* line 128, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .sec3 .exportFormTitle {
   font-size: 22px;
   color: #ff6777;
   font-weight: bold;
 }
-/* line 133, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .sec3 .freebirdFormviewerViewNavigationNavControls *, .sec3 .freebirdFormviewerViewNavigationNavControls:focus *, .sec3 .freebirdFormviewerViewNavigationNavControls:hover *, .sec3 .freebirdFormviewerViewNavigationNavControls:active * {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
 }
-/* line 138, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .sec3 #shower {
   display: none;
   font-size: 25px;
@@ -237,7 +227,7 @@ body {
   color: #ff6777;
   text-align: center;
 }
-/* line 144, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .sec3 #shower .fz-40 {
   font-size: 40px;
 }
@@ -257,19 +247,19 @@ body {
     opacity: 0;
   }
 }
-/* line 159, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .sec3 .fields {
   font-size: 18px;
   color: #286d9d;
   font-weight: 600;
 }
-/* line 164, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .sec3 div[role="listitem"] *, .sec3 div[role="listitem"]:focus *, .sec3 div[role="listitem"]:hover *, .sec3 div[role="listitem"]:active * {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
 }
-/* line 170, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .sec3 #name, .sec3 #text, .sec3 #email {
   width: 100%;
   color: #ff6777;
@@ -278,20 +268,20 @@ body {
   border-radius: 30px;
   margin-top: .25em;
 }
-/* line 177, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 .sec3 #name :hover, .sec3 #name :focus, .sec3 #name :active, .sec3 #text :hover, .sec3 #text :focus, .sec3 #text :active, .sec3 #email :hover, .sec3 #email :focus, .sec3 #email :active {
   border: 2px solid #ffcdd2 !important;
   border-radius: 30px;
 }
-/* line 182, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .sec3 #submit {
   border-radius: 30px;
 }
-/* line 185, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .sec3 .freebirdFormviewerViewItemsItemRequiredAsterisk {
   color: #ff6777;
 }
-/* line 189, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .sec3 .privat[disabled] {
   filter: grayscale(1);
 }
