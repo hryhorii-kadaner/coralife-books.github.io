@@ -85,7 +85,12 @@ body {
   background: #F6F6F6;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
+.blue {
+  color: #286d9d;
+}
+
+/* line 26, ../sass/style.scss */
 .main-section {
   padding-top: 5em;
   position: relative;
@@ -96,77 +101,84 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
   clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
 }
-/* line 31, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .main-section .main-text {
   color: #ff6777;
   text-align: center;
   line-height: 1.7;
 }
-/* line 35, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .main-section .main-text h1 {
   font-size: 53px;
   font-weight: bolder;
 }
-/* line 39, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .main-section .main-text p {
   font-weight: 400;
   font-size: 30px;
   color: #286d9d;
 }
 @media screen and (max-width: 992px) {
-  /* line 45, ../sass/style.scss */
+  /* line 49, ../sass/style.scss */
   .main-section .main-text h1 {
     font-size: 37px !important;
   }
 }
 @media screen and (max-width: 576px) {
-  /* line 51, ../sass/style.scss */
+  /* line 55, ../sass/style.scss */
   .main-section .main-img {
     width: 270px !important;
   }
 }
 
-/* line 58, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
+.sec2 h5 {
+  font-size: 30px;
+  color: #ff6777;
+  font-weight: bold;
+  line-height: 1.4;
+}
+/* line 68, ../sass/style.scss */
 .sec2 .descr .dev-cont.col-12 {
   padding: 0 !important;
 }
-/* line 60, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .sec2 .descr .dev-cont.col-12 .devider {
   width: 10em;
   height: 2px;
-  background: #eee;
+  background-image: linear-gradient(to right, #ff667d, #ff6600);
   margin-top: 1em;
   margin-bottom: 1em;
 }
 @media screen and (max-width: 992px) {
-  /* line 60, ../sass/style.scss */
+  /* line 70, ../sass/style.scss */
   .sec2 .descr .dev-cont.col-12 .devider {
     display: block !important;
     margin-right: auto !important;
     margin-left: auto !important;
   }
 }
-/* line 74, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .sec2 .descr h5 {
   font-size: 30px;
   color: #ff6777;
   font-weight: bold;
 }
 @media screen and (max-width: 992px) {
-  /* line 74, ../sass/style.scss */
+  /* line 84, ../sass/style.scss */
   .sec2 .descr h5 {
     text-align: center;
     padding-top: 1.5rem;
   }
 }
-/* line 85, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .sec2 .descr ul li {
   font-weight: 400;
   font-size: 18px;
   color: #286d9d;
   line-height: 1.2;
 }
-/* line 92, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .sec2 .descr ul li:before {
   content: '\2713   ';
   color: #ff6777;
@@ -174,25 +186,25 @@ body {
   font-size: 22px;
 }
 @media screen and (max-width: 576px) {
-  /* line 101, ../sass/style.scss */
+  /* line 111, ../sass/style.scss */
   .sec2 .float-md-left {
     float: none !important;
   }
 }
-/* line 105, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .sec2 #ifr {
   width: 550px;
   height: 350px;
 }
 @media screen and (max-width: 1280px) {
-  /* line 105, ../sass/style.scss */
+  /* line 115, ../sass/style.scss */
   .sec2 #ifr {
     width: 100%;
     height: 350px;
   }
 }
 @media screen and (max-width: 1280px) and (max-width: 992px) {
-  /* line 105, ../sass/style.scss */
+  /* line 115, ../sass/style.scss */
   .sec2 #ifr {
     width: 80%;
     height: 350px;
@@ -200,26 +212,26 @@ body {
 }
 
 @media screen and (max-width: 1280px) and (max-width: 992px) and (max-width: 576px) {
-  /* line 105, ../sass/style.scss */
+  /* line 115, ../sass/style.scss */
   .sec2 #ifr {
     width: 100% !important;
     height: 30vh !important;
   }
 }
 
-/* line 126, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .sec3 .exportFormTitle {
   font-size: 22px;
   color: #ff6777;
   font-weight: bold;
 }
-/* line 131, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .sec3 .freebirdFormviewerViewNavigationNavControls *, .sec3 .freebirdFormviewerViewNavigationNavControls:focus *, .sec3 .freebirdFormviewerViewNavigationNavControls:hover *, .sec3 .freebirdFormviewerViewNavigationNavControls:active * {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
 }
-/* line 136, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .sec3 #shower {
   display: none;
   font-size: 25px;
@@ -227,7 +239,7 @@ body {
   color: #ff6777;
   text-align: center;
 }
-/* line 142, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .sec3 #shower .fz-40 {
   font-size: 40px;
 }
@@ -247,19 +259,19 @@ body {
     opacity: 0;
   }
 }
-/* line 157, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .sec3 .fields {
   font-size: 18px;
   color: #286d9d;
   font-weight: 600;
 }
-/* line 162, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .sec3 div[role="listitem"] *, .sec3 div[role="listitem"]:focus *, .sec3 div[role="listitem"]:hover *, .sec3 div[role="listitem"]:active * {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
 }
-/* line 168, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .sec3 #name, .sec3 #text, .sec3 #email {
   width: 100%;
   color: #ff6777;
@@ -268,20 +280,20 @@ body {
   border-radius: 30px;
   margin-top: .25em;
 }
-/* line 175, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .sec3 #name :hover, .sec3 #name :focus, .sec3 #name :active, .sec3 #text :hover, .sec3 #text :focus, .sec3 #text :active, .sec3 #email :hover, .sec3 #email :focus, .sec3 #email :active {
   border: 2px solid #ffcdd2 !important;
   border-radius: 30px;
 }
-/* line 180, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .sec3 #submit {
   border-radius: 30px;
 }
-/* line 183, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .sec3 .freebirdFormviewerViewItemsItemRequiredAsterisk {
   color: #ff6777;
 }
-/* line 187, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .sec3 .privat[disabled] {
   filter: grayscale(1);
 }

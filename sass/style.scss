@@ -19,6 +19,10 @@ body {
 	background:#F6F6F6;
 }
 
+$blu : #286d9d;
+.blue {
+	color: $blu;
+}
 .main-section {
 	padding-top:5em;
 	position: relative;
@@ -39,7 +43,7 @@ body {
 		p {
 			font-weight: 400;
 			font-size: 30px;
-			color: #286d9d;
+			color: $blu;
 		}
 		@media screen and (max-width: 992px) {
 			h1 {
@@ -54,13 +58,19 @@ body {
 	}
 }
 .sec2 {
+	h5 {
+		font-size: 30px;
+		color: #ff6777;
+		font-weight: bold;
+		line-height: 1.4;
+	}
 	.descr {
 		.dev-cont.col-12 {
 			padding: 0!important;
 			.devider {
 				width: 10em;
 				height: 2px;
-				background: #eee;
+				background-image: linear-gradient(to right, rgb(255, 102, 125), rgb(255, 102, 0));
 				margin-top: 1em;
 				margin-bottom: 1em;	
 				@media screen and (max-width: 992px) {
@@ -85,10 +95,10 @@ body {
 			li {
 				font-weight: 400;
 				font-size: 18px;
-				color: #286d9d;
+				color: $blu;
 				line-height: 1.2;
 			}
-			
+
 			li:before {
 				content: '\2713   ';
 				color:#ff6777;
@@ -156,7 +166,7 @@ body {
 	}
 	.fields {
 		font-size:18px;
-		color:#286d9d;
+		color:$blu;
 		font-weight: 600; 
 	}
 	div[role="listitem"] *, div[role="listitem"]:focus *, div[role="listitem"]:hover *, div[role="listitem"]:active * {
