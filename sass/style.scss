@@ -1,0 +1,192 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap');
+
+* {
+	font-family: "Montserrat", serif!important;
+	transition: .3s linear;
+}
+
+.hid {
+	visibility: hidden!important;
+	display: none!important;
+}
+body {
+	background:#F6F6F6;
+}
+
+.main-section {
+	padding-top:5em;
+	position: relative;
+	height: 100%;
+	background: url('../images/main.png') no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
+	clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
+	.main-text {
+		color: #ff6777;
+		text-align: center;
+		line-height: 1.7; 
+		h1 {
+			font-size: 53px;
+			font-weight: bolder;
+		}
+		p {
+			font-weight: 400;
+			font-size: 30px;
+			color: #286d9d;
+		}
+		@media screen and (max-width: 992px) {
+			h1 {
+				font-size: 37px!important;
+			}			
+		}
+	}	
+	@media screen and (max-width: 576px) {
+		.main-img {
+			width: 270px!important;
+		}
+	}
+}
+.sec2 {
+	.descr {
+		.dev-cont.col-12 {
+			padding: 0!important;
+			.devider {
+				width: 10em;
+				height: 2px;
+				background: #eee;
+				margin-top: 1em;
+				margin-bottom: 1em;	
+				@media screen and (max-width: 992px) {
+					display: block!important;
+					margin-right: auto!important;
+					margin-left: auto!important;
+				}		
+			}
+		}
+		
+		h5 {
+			font-size: 30px;
+			color: #ff6777;
+			font-weight: bold;
+			@media screen and (max-width: 992px) {
+				text-align: center;
+				padding-top: 1.5rem;
+			}	
+		}
+
+		p {
+			@media screen and (min-width: 1280px) {
+				width: 70%;
+			}
+			@media screen and (max-width: 992px) {
+				text-align: center!important;
+				width: 100%;				
+			}
+			
+			font-weight: 400;
+			font-size: 20px;
+			color: #286d9d;
+			line-height: 1.2;
+		}
+	}
+	@media screen and (max-width: 576px) {
+		.float-md-left {
+			float: none!important;
+		}
+		.text-left {
+			text-align: center!important;
+		}
+	}
+	#ifr {
+		width: 550px;
+		height: 350px;
+		@media screen and (max-width: 1280px) {
+			width: 100%;
+			height: 350px;
+			@media screen and (max-width: 992px) {
+				width: 80%;
+				height: 350px;
+				@media screen and (max-width: 576px) {
+					width: 100%!important;
+					height: 30vh!important;
+				}
+			}
+
+			
+		}
+		
+	}
+}
+.sec3 {
+	.exportFormTitle {
+		font-size: 22px;
+		color: #ff6777;
+		font-weight: bold;
+	}
+	.freebirdFormviewerViewNavigationNavControls *,.freebirdFormviewerViewNavigationNavControls:focus *, .freebirdFormviewerViewNavigationNavControls:hover *, .freebirdFormviewerViewNavigationNavControls:active * {
+		border:none!important;
+		outline:none!important;
+		box-shadow: none!important;
+	}
+	#shower {
+		display: none;
+		font-size:25px;
+		font-weight: bolder;
+		color: #ff6777;
+		text-align: center;
+		.fz-40 {
+			font-size: 40px;
+		}
+	}
+
+	
+
+	@keyframes showwww {
+		0%{opacity: 0;}
+		100%{opacity: 1;}
+	}
+	@keyframes hiderrr {
+		0%{opacity: 1;}
+		100%{opacity: 0;}
+	}
+	.fields {
+		font-size:18px;
+		color:#286d9d;
+		font-weight: 600; 
+	}
+	div[role="listitem"] *, div[role="listitem"]:focus *, div[role="listitem"]:hover *, div[role="listitem"]:active * {
+		border:none!important;
+		outline: none!important;
+		box-shadow: none!important;
+	}
+
+	#name, #text, #email {
+		width: 100%;
+		color:#ff6777;
+		padding: .25em 1em .25em 1em;
+		border:2px solid lighten(#ff6777, 22%)!important;
+		border-radius: 30px;
+		margin-top: .25em;
+		:hover,:focus,:active {
+			border:2px solid lighten(#ff6777, 20%)!important;
+			border-radius: 30px;
+		}
+	}
+	#submit {
+		border-radius:30px;
+	}
+	.freebirdFormviewerViewItemsItemRequiredAsterisk {
+		color: #ff6777;
+	}
+
+	.privat[disabled] {
+		filter: grayscale(1);
+	}
+}
