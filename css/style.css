@@ -497,3 +497,21 @@ footer p {
   color: #ff6777;
   box-shadow: 0 0 20px white;
 }
+
+/* line 391, ../sass/style.scss */
+.payments p {
+  color: white !important;
+  font-size: 40px !important;
+}
+
+/* line 396, ../sass/style.scss */
+.lightbg {
+  position: relative;
+  bottom: 4px;
+  background: #fff;
+  color: black;
+  padding-right: .5em;
+  padding-left: .5em;
+  border-radius: 8px;
+  font-size: 30px;
+}
