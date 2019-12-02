@@ -237,7 +237,7 @@ body {
   font-size: 25px;
   font-weight: bolder;
   color: #ff6777;
-  text-align: center;
+  text-align: center !important;
 }
 /* line 152, ../sass/style.scss */
 .sec3 #shower .fz-40 {
