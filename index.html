@@ -249,7 +249,12 @@
 		            <!-- <a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJwdWJsaWNfa2V5IjoiaTY1NTkwNzIxMDg4IiwiYW1vdW50IjoiMiIsImN1cnJlbmN5IjoiVUFIIiwiZGVzY3JpcHRpb24iOiLQnNC%2B0Lkg0YLQvtCy0LDRgCIsInR5cGUiOiJidXkiLCJyZXN1bHRfdXJsIjoiaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL3UvMS9mb2xkZXJzLzFfbGZzdGpUNHllZTNWajZ4dHR3VWpNSnNXYVZCMFpWViIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=v%2FEbJu2UQlDahg1NUu2eR0Q9pSs%3D" target="_blank" class="btn btn-outline-danger mx-auto mt-3">Купить 2 грн</a> -->
 		            <div class="container-fluid">
 		            	<div class="row">
-		            		<h5 class="mt-3 text-center w-100 blck">Цена книги: <span class="green">15 EUR</span></h5>
+		            		<style>@import url("https://portal.fondy.eu/mportal/static/css/button.css");</style>
+							<a href="https://api.fondy.eu/s/uLx97UKm80V1" data-button="" class="f-p-b mx-auto mt-3" style="--fpb-background:#df3131; --fpb-color:#ffffff; --fpb-border-color:#ed4949; --fpb-border-width:1px; --fpb-font-weight:700; --fpb-font-size:18px; --fpb-border-radius:30px;" target="_blank">
+							<i data-text="name">Купить книгу</i>
+							<i data-text="amount">15 EUR</i>
+							</a>
+		            		<!-- <h5 class="mt-3 text-center w-100 blck">Цена книги: <span class="green">15 EUR</span></h5> -->
 		            	<p class="mt-3 text-center w-100">Реквизиты для оплаты</p>
 		            	 <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3 text-sm-left non-rd text-center">
 				            <ul>
@@ -281,6 +286,7 @@
   			
   		</div>
   	</section>
+  	<input type="submit" id="submit" value="Отправить" class="btn btn-danger mt-3" onclick="hideshow(); remover();" />
   	<footer class="footer bg-dark" id="feedback">
 			<div class="container bottom_border">
 				<div class="row">
