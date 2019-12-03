@@ -574,60 +574,53 @@ footer p {
 /* line 449, ../sass/style.scss */
 blockquote {
   margin: 0;
-  background: #FDFBFB;
-  color: #5F5F5F;
-  padding: 30px 30px 30px 80px;
+  color: #231E28;
+  padding: 30px 30px 30px 60px;
+  border-left: 8px solid #CBDDE7;
   position: relative;
+  background: #fff;
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
-/* line 456, ../sass/style.scss */
+/* line 458, ../sass/style.scss */
 blockquote:before {
-  content: "\1F676";
+  content: "\201C";
+  font-family: Arial;
+  color: #CBDDE7;
+  font-size: 70px;
   position: absolute;
-  z-index: 2;
-  left: 30px;
-  top: 15px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 80px;
-  color: #ff6777;
-  font-size: 50px;
-  background: rgba(188, 231, 250, 0.7);
+  left: 15px;
+  top: 5px;
 }
-/* line 471, ../sass/style.scss */
-blockquote:after {
-  content: "";
-  position: absolute;
-  left: 34px;
-  top: 19px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: rgba(242, 124, 176, 0.7);
-}
-/* line 481, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 blockquote blockquote p {
+  font-style: italic;
   font-size: 24px;
-  letter-spacing: .05em;
-  line-height: 1.4;
-  margin: 0 0 16px;
-  position: relative;
-  z-index: 3;
+  margin-top: 0;
 }
-/* line 489, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
 blockquote cite {
   font-style: normal;
   font-weight: 300;
 }
+@media screen and (max-width: 576px) {
+  /* line 449, ../sass/style.scss */
+  blockquote {
+    padding: 30px 30px 30px 30px;
+    text-align: left !important;
+  }
+  /* line 480, ../sass/style.scss */
+  blockquote:before {
+    display: none;
+  }
+}
 
-/* line 495, ../sass/style.scss */
+/* line 486, ../sass/style.scss */
 .smaller {
   font-size: 20px !important;
 }
 
-/* line 500, ../sass/style.scss */
+/* line 491, ../sass/style.scss */
 .tick li:before {
   content: '\2713   ';
   color: #ff6777;
@@ -635,7 +628,7 @@ blockquote cite {
   font-size: 22px;
 }
 
-/* line 507, ../sass/style.scss */
+/* line 498, ../sass/style.scss */
 .big {
   font-size: 24px;
 }

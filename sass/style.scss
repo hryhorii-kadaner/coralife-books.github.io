@@ -448,47 +448,38 @@ footer p {
 
 blockquote {
 	margin: 0;
-	background: #FDFBFB;
-	color: #5F5F5F;
-	padding: 30px 30px 30px 80px;
+	color: #231E28;
+	padding: 30px 30px 30px 60px;
+	border-left: 8px solid #CBDDE7;
 	position: relative;
+	background: #fff;
 	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	&:before {
-		content: "\1F676";
+		content: "\201C";
+		font-family: Arial;
+		color: #CBDDE7;
+		font-size: 70px;
 		position: absolute;
-		z-index: 2;
-		left: 30px;
-		top: 15px;
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		text-align: center;
-		line-height: 80px;
-		color: $rd;
-		font-size: 50px;
-		background: rgba(188,231,250, .7);
+		left: 15px;
+		top: 5px;
 	}
-	&:after {
-		content: "";
-		position: absolute;
-		left: 34px;
-		top: 19px;
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		background: rgba(242,124,176, .7);
-		}
-		blockquote p {
+	
+	blockquote p {
+		font-style: italic;
 		font-size: 24px;
-		letter-spacing: .05em;
-		line-height: 1.4;
-		margin: 0 0 16px;
-		position: relative;
-		z-index: 3;
+		margin-top: 0;  
 	}
 	cite {
 		font-style: normal;
 		font-weight: 300;
+	}
+	@media screen and (max-width: 576px) {
+		padding: 30px 30px 30px 30px;
+		text-align: left!important;
+		&:before {
+			display: none;
+		}
 	}
 }
 
