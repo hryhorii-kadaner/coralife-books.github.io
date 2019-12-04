@@ -447,38 +447,37 @@ footer p {
 }
 
 blockquote {
-	margin: 0;
-	color: #231E28;
-	padding: 30px 30px 30px 60px;
-	border-left: 8px solid #CBDDE7;
-	position: relative;
-	background: #fff;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	margin: 0!important;
+	padding: 30px 30px 30px 60px!important;
+	border-left: 8px solid #CBDDE7!important;
+	position: relative!important;
+	background: #fff!important;
+	font-family: 'Lato', sans-serif!important;
+	font-weight: 300!important;
 	&:before {
-		content: "\201C";
+		content: "\201C"!important;
 		font-family: Arial;
-		color: #CBDDE7;
-		font-size: 70px;
-		position: absolute;
-		left: 15px;
-		top: 5px;
+		color: #CBDDE7!important;
+		font-size: 70px!important;
+		position: absolute!important;
+		left: 15px!important;
+		top: 5px!important;
 	}
 	
 	blockquote p {
-		font-style: italic;
-		font-size: 24px;
-		margin-top: 0;  
+		font-style: italic!important;
+		font-size: 24px!important;
+		margin-top: 0!important;  
 	}
 	cite {
-		font-style: normal;
-		font-weight: 300;
+		font-style: normal!important;
+		font-weight: 300!important;
 	}
 	@media screen and (max-width: 576px) {
-		padding: 30px 30px 30px 30px;
+		padding: 30px 30px 30px 30px!important;
 		text-align: left!important;
 		&:before {
-			display: none;
+			display: none!important;
 		}
 	}
 }

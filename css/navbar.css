@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/* line 5, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/navbar.scss */
+* {
+  font-family: "Montserrat", serif !important;
+  transition: .3s linear;
+}
+
+/* line 9, ../sass/navbar.scss */
+.navbar {
+  background: unset !important;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: background .3s linear;
+  animation: hiding .4s linear 1;
+  animation-fill-mode: both;
+}
+/* line 15, ../sass/navbar.scss */
+.navbar:hover {
+  background: linear-gradient(to right, #ff667d, #ff6600) !important;
+  animation: showing .4s linear 1;
+  animation-fill-mode: both;
+}
+/* line 19, ../sass/navbar.scss */
+.navbar:hover .nav-link, .navbar:hover .navbar-brand {
+  color: #fff !important;
+}
+/* line 22, ../sass/navbar.scss */
+.navbar:hover .nav-link:hover {
+  opacity: 1;
+}
+/* line 26, ../sass/navbar.scss */
+.navbar .nav-link {
+  opacity: .5;
+}
+/* line 29, ../sass/navbar.scss */
+.navbar .active {
+  opacity: 1 !important;
+}
+/* line 34, ../sass/navbar.scss */
+.navbar .nav-link {
+  color: black !important;
+}
+@media screen and (max-width: 992px) {
+  /* line 9, ../sass/navbar.scss */
+  .navbar {
+    background: linear-gradient(to right, #ff667d, #ff6600) !important;
+  }
+  /* line 39, ../sass/navbar.scss */
+  .navbar * {
+    color: #fff !important;
+  }
+}
+
+/* line 45, ../sass/navbar.scss */
+.scrolled {
+  background: linear-gradient(to right, #ff667d, #ff6600) !important;
+  animation: showing .4s linear 1;
+  animation-fill-mode: both;
+}
+/* line 47, ../sass/navbar.scss */
+.scrolled a * {
+  color: white !important;
+}
+/* line 53, ../sass/navbar.scss */
+.scrolled .nav-link, .scrolled .navbar-brand {
+  color: #fff !important;
+}
+@media screen and (max-width: 992px) {
+  /* line 45, ../sass/navbar.scss */
+  .scrolled {
+    animation: unset !important;
+  }
+}
+
+@keyframes hiding {
+  0% {
+    background: linear-gradient(to right, #ff667d, #ff6600) !important;
+  }
+  100% {
+    background: #fff !important;
+  }
+}
+@keyframes showing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

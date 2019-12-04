@@ -1,0 +1,75 @@
+@import "compass/reset";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	font-family: "Montserrat", serif!important;
+	transition: .3s linear;
+}
+
+.navbar {
+	background: unset!important;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+	transition: background .3s linear;
+	&:hover {
+		background: linear-gradient(to right, rgb(255, 102, 125), rgb(255, 102, 0))!important;
+		animation: showing .4s linear 1;
+		animation-fill-mode: both;
+		.nav-link, .navbar-brand {
+			color: #fff!important;
+		}
+		.nav-link:hover {
+			opacity: 1;
+		}
+	}
+	.nav-link {
+		opacity: .5;
+	}
+	.active {
+		opacity: 1!important;
+	}
+	animation: hiding .4s linear 1;
+	animation-fill-mode: both;
+	.nav-link {
+		color: black!important;
+	}
+	@media screen and (max-width: 992px) {
+		background: linear-gradient(to right, rgb(255, 102, 125), rgb(255, 102, 0))!important;
+		* {
+			color: #fff!important;
+		}
+	}
+}
+
+.scrolled {
+	background: linear-gradient(to right, rgb(255, 102, 125), rgb(255, 102, 0))!important;
+	a * {
+		color: white!important;
+	}
+	
+	animation: showing .4s linear 1;
+	animation-fill-mode: both;
+	.nav-link, .navbar-brand {
+		color: #fff!important;
+	}
+	@media screen and (max-width: 992px) {
+		animation: unset!important;
+	}
+}
+@keyframes hiding {
+	0%{
+		background: linear-gradient(to right, rgb(255, 102, 125), rgb(255, 102, 0))!important;
+	}
+	100%{
+		background: #fff!important;
+	}
+}
+@keyframes showing {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
