@@ -219,6 +219,50 @@ $blk: black;
 		filter: grayscale(1);
 	}
 }
+
+.public-offert {
+	.sec1 {
+		height: 70vh;
+		.wrapper {
+			position: absolute;
+			top:50%;
+			left:50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%);
+
+			h1 {
+				color: $rd;
+				font-size: 35px;
+				font-weight: bold;
+			}
+		}		
+	}
+	.sec2 {
+		blockquote {
+			*{
+				line-height: 1.5;
+				font-size: 18px;
+			}
+			h2 {
+				font-size: 23px;
+				font-weight: bold;
+				a {
+					color: $rd;
+					font-size: 25px;
+				}
+			}
+			.fz-20{
+				font-size: 20px;
+			}
+			ol {
+				li {
+					padding-top: 1em;
+				}
+			}
+		}
+	}
+}
+
 /*****************************************footer*****************************************/
 
 .col_white_amrc {
