@@ -55,7 +55,7 @@ $blk: black;
 		text-align: center;
 		line-height: 1.7; 
 		h1 {
-			font-size: 53px;
+			font-size: 35px;
 			font-weight: 900;
 		}
 		p {
@@ -214,10 +214,6 @@ $blk: black;
 	.freebirdFormviewerViewItemsItemRequiredAsterisk {
 		color: $rd;
 	}
-
-	.privat[disabled] {
-		filter: grayscale(1);
-	}
 }
 
 .public-offert {
@@ -261,6 +257,56 @@ $blk: black;
 			}
 		}
 	}
+}
+
+a.active[data-toggle="tab"]  {
+	background: $rd!important;
+	color: #fff!important;
+}
+
+.organizer {
+	@extend .sec2;
+
+	h5 {
+		font-size: 30px;
+		span {
+			font-size: 20px;
+		}
+	}
+	.ul-cont {
+		.active {
+			position: relative;
+			background: $rd;
+			color: white;
+			border-color:$rd;
+		}
+		.invesre {
+			text-align: center;
+			max-width: 60px;
+			background: $rd;
+			color: #fff;
+			padding: .5em;
+			border-radius: 30px;
+			font-size: 12px;
+			font-weight: bold;
+		}
+		blockquote {
+			border-left: 8px solid rgba($rd, 0.6)!important;
+			&:before {
+				color: rgba($rd, 0.6)!important;
+			}
+			p {
+				color: $rd;
+				font-weight: bold;
+				font-size: 18px;
+			}
+		}
+	}
+	.spinner-border {
+		width: 1.25em;
+		height: 1.25em;
+	}
+	
 }
 
 /*****************************************footer*****************************************/

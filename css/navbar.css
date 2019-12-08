@@ -103,8 +103,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 1 !important;
 }
 /* line 34, ../sass/navbar.scss */
-.navbar .nav-link, .navbar .navbar-brand {
-  color: #ff667d !important;
+.navbar .navbar-brand {
+  color: #ff667d;
 }
 /* line 37, ../sass/navbar.scss */
 .navbar .navbar-brand {
@@ -123,24 +123,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .navbar .navbar-brand {
     color: #fff !important;
   }
+  /* line 48, ../sass/navbar.scss */
+  .navbar .dropdown-item {
+    color: #000 !important;
+  }
 }
 
-/* line 51, ../sass/navbar.scss */
+/* line 54, ../sass/navbar.scss */
 .scrolled {
   background: linear-gradient(to right, #ff667d, #ff6600) !important;
   animation: showing .4s linear 1;
   animation-fill-mode: both;
 }
-/* line 53, ../sass/navbar.scss */
+/* line 56, ../sass/navbar.scss */
 .scrolled a * {
   color: white !important;
 }
-/* line 59, ../sass/navbar.scss */
+/* line 62, ../sass/navbar.scss */
 .scrolled .nav-link, .scrolled .navbar-brand {
   color: #fff !important;
 }
 @media screen and (max-width: 992px) {
-  /* line 51, ../sass/navbar.scss */
+  /* line 54, ../sass/navbar.scss */
   .scrolled {
     animation: unset !important;
   }
