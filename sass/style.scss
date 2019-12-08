@@ -301,6 +301,22 @@ a.active[data-toggle="tab"]  {
 				font-size: 18px;
 			}
 		}
+		.blockquote2 {
+			p {
+				font-size: 18px;
+				font-weight: normal;
+				color: black;
+			}
+			h3 {
+				font-size: 20px;
+				line-height: 1.7;
+			}
+			ul {
+				li {
+					font-size: 18px;
+				}
+			}
+		}
 	}
 	.spinner-border {
 		width: 1.25em;
