@@ -39,6 +39,23 @@ $blk: black;
 .rad-30 {
 	border-radius: 30px!important;
 }
+@media screen and (max-width: 576px){
+	.smallOn576 {
+		font-size: 15px!important;
+		i[data-brand="google"] {
+			font-size: 15px!important;
+		}
+	}
+	@media screen and (max-width: 350px) {
+		.smallOn576 {
+			font-size: 13px!important;
+			i[data-brand="google"] {
+				font-size: 13px!important;
+			}
+		}
+	}
+}
+
 .exportFormTitle {
 		font-size: 22px;
 		color: $rd;
@@ -126,10 +143,16 @@ $blk: black;
 			font-weight: 400;
 			font-size: 30px;
 			color: $blu;
+			@media screen and (max-width: 576px) {
+					font-size: 24px!important;
+			}
 		}
 		@media screen and (max-width: 992px) {
 			h1 {
 				font-size: 37px!important;
+				@media screen and (max-width: 576px) {
+					font-size: 27px!important;
+				}
 			}			
 		}
 	}	
