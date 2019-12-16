@@ -23,10 +23,10 @@ $blu : #286d9d;
 $gr: green;
 $blk: black;
 .blue {
-	color: $blu;
+	color: $blu!important;
 }
 .blck {
-	color: $blk;
+	color: $blk!important;
 }
 .green {
 	color: $gr!important;
@@ -34,6 +34,10 @@ $blk: black;
 
 .r-text {
 	color: $rd!important;
+}
+
+.rad-30 {
+	border-radius: 30px!important;
 }
 .exportFormTitle {
 		font-size: 22px;

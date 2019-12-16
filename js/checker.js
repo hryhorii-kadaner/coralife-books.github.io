@@ -38,14 +38,14 @@ function hideshowNext() {
 }
 
 function firstButtonActive() {
-		$(".life-organizer").css("display", "none",);
-		$(".training").css("display", "");
+		$(".life-organizer").css("display", "",);
+		$(".training").css("display", "none");
 }
 firstButtonActive();
 
 function secondButtonActive() {
-	$(".life-organizer").css("display", "");
-	$(".training").css("display", "none");
+	$(".life-organizer").css("display", "none");
+	$(".training").css("display", "");
 }
 // $('#subm').click(function remover(){
 // 	$('.privat').removeAttr('disabled');
