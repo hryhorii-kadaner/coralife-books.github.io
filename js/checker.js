@@ -36,12 +36,13 @@ function hideshowNext() {
 	document.getElementById("formHider2").style.cssText="animation:hierrr 1s 1 linear;display:none;";
 	document.getElementById("shower2").style.cssText="display:block;animation:showwww 1s 1 linear;";
 }
-function firstButtonActive() {
 
+function firstButtonActive() {
 		$(".life-organizer").css("display", "none",);
 		$(".training").css("display", "");
 }
 firstButtonActive();
+
 function secondButtonActive() {
 	$(".life-organizer").css("display", "");
 	$(".training").css("display", "none");
