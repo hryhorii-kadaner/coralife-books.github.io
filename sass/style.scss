@@ -35,6 +35,66 @@ $blk: black;
 .r-text {
 	color: $rd!important;
 }
+.exportFormTitle {
+		font-size: 22px;
+		color: $rd;
+		font-weight: bold;
+	}
+	.freebirdFormviewerViewNavigationNavControls *,.freebirdFormviewerViewNavigationNavControls:focus *, .freebirdFormviewerViewNavigationNavControls:hover *, .freebirdFormviewerViewNavigationNavControls:active * {
+		border:none!important;
+		outline:none!important;
+		box-shadow: none!important;
+	}
+	#shower, #shower2 {
+		display: none;
+		font-size:25px;
+		font-weight: bolder;
+		color: $rd;
+		text-align: center!important;
+		.fz-40 {
+			font-size: 40px;
+		}
+	}
+
+	
+
+	@keyframes showwww {
+		0%{opacity: 0;}
+		100%{opacity: 1;}
+	}
+	@keyframes hiderrr {
+		0%{opacity: 1;}
+		100%{opacity: 0;}
+	}
+	.fields {
+		font-size:18px;
+		color:$blu;
+		font-weight: 600; 
+	}
+	div[role="listitem"] *, div[role="listitem"]:focus *, div[role="listitem"]:hover *, div[role="listitem"]:active * {
+		border:none!important;
+		outline: none!important;
+		box-shadow: none!important;
+	}
+
+	#name, #name_next, #text, #text_next, #email, #email_next {
+		width: 100%;
+		color:$rd;
+		padding: .25em 1em .25em 1em;
+		border:2px solid lighten($rd, 22%)!important;
+		border-radius: 30px;
+		margin-top: .25em;
+		:hover,:focus,:active {
+			border:2px solid lighten($rd, 20%)!important;
+			border-radius: 30px;
+		}
+	}
+	#submit, #submit2 {
+		border-radius:30px;
+	}
+	.freebirdFormviewerViewItemsItemRequiredAsterisk {
+		color: $rd;
+	}
 .bld {
 		font-weight: bold!important;
 }
@@ -153,69 +213,6 @@ $blk: black;
 				}		
 			}
 		}
-.sec3 {
-	.exportFormTitle {
-		font-size: 22px;
-		color: $rd;
-		font-weight: bold;
-	}
-	.freebirdFormviewerViewNavigationNavControls *,.freebirdFormviewerViewNavigationNavControls:focus *, .freebirdFormviewerViewNavigationNavControls:hover *, .freebirdFormviewerViewNavigationNavControls:active * {
-		border:none!important;
-		outline:none!important;
-		box-shadow: none!important;
-	}
-	#shower {
-		display: none;
-		font-size:25px;
-		font-weight: bolder;
-		color: $rd;
-		text-align: center!important;
-		.fz-40 {
-			font-size: 40px;
-		}
-	}
-
-	
-
-	@keyframes showwww {
-		0%{opacity: 0;}
-		100%{opacity: 1;}
-	}
-	@keyframes hiderrr {
-		0%{opacity: 1;}
-		100%{opacity: 0;}
-	}
-	.fields {
-		font-size:18px;
-		color:$blu;
-		font-weight: 600; 
-	}
-	div[role="listitem"] *, div[role="listitem"]:focus *, div[role="listitem"]:hover *, div[role="listitem"]:active * {
-		border:none!important;
-		outline: none!important;
-		box-shadow: none!important;
-	}
-
-	#name, #text, #email {
-		width: 100%;
-		color:$rd;
-		padding: .25em 1em .25em 1em;
-		border:2px solid lighten($rd, 22%)!important;
-		border-radius: 30px;
-		margin-top: .25em;
-		:hover,:focus,:active {
-			border:2px solid lighten($rd, 20%)!important;
-			border-radius: 30px;
-		}
-	}
-	#submit {
-		border-radius:30px;
-	}
-	.freebirdFormviewerViewItemsItemRequiredAsterisk {
-		color: $rd;
-	}
-}
-
 .public-offert {
 	.sec1 {
 		height: 70vh;
