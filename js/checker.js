@@ -37,16 +37,16 @@ function hideshowNext() {
 	document.getElementById("shower2").style.cssText="display:block;animation:showwww 1s 1 linear;";
 }
 
-function firstButtonActive() {
-		$(".life-organizer").css("display", "",);
-		$(".training").css("display", "none");
-}
-firstButtonActive();
+// function firstButtonActive() {
+// 		$(".life-organizer").css("display", "",);
+// 		$(".training").css("display", "none");
+// }
+// firstButtonActive();
 
-function secondButtonActive() {
-	$(".life-organizer").css("display", "none");
-	$(".training").css("display", "");
-}
+// function secondButtonActive() {
+// 	$(".life-organizer").css("display", "none");
+// 	$(".training").css("display", "");
+// }
 // $('#subm').click(function remover(){
 // 	$('.privat').removeAttr('disabled');
 // });
