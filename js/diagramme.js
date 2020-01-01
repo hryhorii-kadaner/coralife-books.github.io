@@ -1,7 +1,8 @@
 var ctx = document.getElementById("myChart");
 Chart.defaults.global.defaultFontFamily = "Montserrat";
-Chart.defaults.global.defaultFontSize = 18;
+Chart.defaults.global.defaultFontSize = 12;
 var data = {
+    labels: ["Любовь", "Вера", "Мечта", "Действия", "Достижения", "Процветание", "Влияние"],
     datasets: [{
             data: [12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5],
             labels: ["Любовь", "Вера", "Мечта", "Действия", "Достижения", "Процветание", "Влияние"],
@@ -25,8 +26,11 @@ var options = {
                 return label;
             }
         }
+    },
+    responsibility: {
+        responsible: true
     }
-};
+};    
 
 var pieChart = new Chart(ctx, {
     type: 'pie',
