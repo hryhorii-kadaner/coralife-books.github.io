@@ -349,6 +349,59 @@ a.active[data-toggle="tab"]  {
 	
 }
 
+.mandals {
+	@extend .sec2;
+	h5 {
+		font-size: 30px;
+		span {
+			font-size: 20px;
+		}
+	}
+
+	blockquote {
+		border-left: 8px solid rgba($rd, 0.6)!important;
+		&:before {
+			color: rgba($rd, 0.6)!important;
+		}
+		h3 {
+			color: $rd;
+			font-weight: bold;
+			font-size: 22px;
+			text-align: center;
+		}
+		@media screen and (max-width: 576px) {
+			border-left: none!important;
+			max-width: 576px;
+			&:before {
+				display: none!important;
+			}
+		}
+		p {
+			font-size: 18px;
+		}
+		.questions {
+			li {
+				font-size: 18px;
+			}
+		}
+		.ul-cont {
+			.active {
+				position: relative;
+				background: $rd;
+				color: white;
+				border-color:$rd;
+				font-weight: bold;
+			}
+		}
+
+		.diagramme {
+			position: relative;
+			border-radius:50%;
+			max-width: 400px;
+		}
+	}
+}
+
 /*****************************************footer*****************************************/
 
 .col_white_amrc {
