@@ -406,6 +406,38 @@ a.active[data-toggle="tab"]  {
 			#myChart {
 				max-width: 270px;
 			}
+			$special-colors: #ff6777, #FF8624, #FFE400, #2BE400, #00D2FF, #6384FF, #8463FF;
+			@for $i from 1 through length($special-colors){
+				.colorss-#{$i}{
+					background: nth($special-colors, $i);
+				}
+			}
+			.color-indicators {
+				width: 17px;
+				height: 17px;
+				border-radius: 3px;
+				border:0px solid black;
+				pointer-events: none;
+			}
+
+			@media screen and (min-width: 992px) {
+				.colorful-menu ul {
+					justify-content: space-around!important;
+				}
+			 	.hid-lg {
+					display: none;
+				}
+				.show-lg {
+					display: inline-flex;
+					padding-top: .2em;
+					line-height: 1.2;
+				}
+			}
+			 @media screen and (max-width: 992px) {
+			 	.show-lg {
+					display: none;
+				}
+			}
 			
 		}
 	}
