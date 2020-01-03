@@ -39,6 +39,9 @@ $blk: black;
 .rad-30 {
 	border-radius: 30px!important;
 }
+.fz-40 {
+	font-size: 40px;
+}
 @media screen and (max-width: 576px){
 	.smallOn576 {
 		font-size: 15px!important;
@@ -66,15 +69,12 @@ $blk: black;
 		outline:none!important;
 		box-shadow: none!important;
 	}
-	#shower, #shower2 {
+	#shower, #shower2, #shower3 {
 		display: none;
 		font-size:25px;
 		font-weight: bolder;
 		color: $rd;
 		text-align: center!important;
-		.fz-40 {
-			font-size: 40px;
-		}
 	}
 
 	
@@ -98,7 +98,7 @@ $blk: black;
 		box-shadow: none!important;
 	}
 
-	#name, #name_next, #text, #text_next, #email, #email_next {
+	#name, #name_next, #name_third, #text, #text_next, #email_third, #email, #email_next, #text_third {
 		width: 100%;
 		color:$rd;
 		padding: .25em 1em .25em 1em;
@@ -110,7 +110,7 @@ $blk: black;
 			border-radius: 30px;
 		}
 	}
-	#submit, #submit2 {
+	#submit, #submit2, #submit3 {
 		border-radius:30px;
 	}
 	.freebirdFormviewerViewItemsItemRequiredAsterisk {
@@ -382,6 +382,21 @@ a.active[data-toggle="tab"]  {
 		p {
 			font-size: 18px;
 		}
+		.central-img {
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			width: 390px;
+			@media screen and (max-width: 992px) {
+				width: 340px;
+				@media screen and (max-width: 768px) {
+					width: 300px;
+					@media screen and (max-width: 576px) {
+						width: 230px;
+					}
+				}
+			}
+		}
 		.questions {
 			li {
 				font-size: 18px;
@@ -441,6 +456,9 @@ a.active[data-toggle="tab"]  {
 			
 		}
 	}
+	// .mandalas-button {
+	// 	@extend .life-organizer;
+	// }
 }
 
 /*****************************************footer*****************************************/

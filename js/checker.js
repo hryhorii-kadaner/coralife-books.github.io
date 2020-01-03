@@ -19,6 +19,8 @@ $('#subm').click(function remover(){
 	$('.privat').removeAttr('disabled');
 });
 
+
+
 function checkParamsNext() {
 	var nameNext = $('#name_next').val();
 	var emailNext = $('#email_next').val();
@@ -37,6 +39,24 @@ function hideshowNext() {
 	document.getElementById("shower2").style.cssText="display:block;animation:showwww 1s 1 linear;";
 }
 
+
+function checkParamsThird() {
+	var nameNext = $('#name_third').val();
+	var emailNext = $('#email_third').val();
+	var textNext = $('#text_third').val();
+
+	if(emailNext.indexOf('@') != -1 && nameNext.length != 0 && textNext.length != 0) {
+		$('#submit3').removeAttr('disabled');
+	} else {
+		$('#submit3').attr('disabled', 'disabled');
+	}
+}
+checkParamsThird();
+
+function hideshowThird() {
+	document.getElementById("formHider3").style.cssText="animation:hierrr 1s 1 linear;display:none;";
+	document.getElementById("shower3").style.cssText="display:block;animation:showwww 1s 1 linear;";
+}
 // function firstButtonActive() {
 // 		$(".life-organizer").css("display", "",);
 // 		$(".training").css("display", "none");
