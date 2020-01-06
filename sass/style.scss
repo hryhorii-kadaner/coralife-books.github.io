@@ -950,12 +950,12 @@ div {
         float: left;
 
         &.amplitude-not-muted {
-          background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-players/volume.svg");
+          background: url("../images/volume-up-solid.svg");
           background-repeat: no-repeat;
         }
 
         &.amplitude-muted {
-          background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/mute.svg");
+          background: url("../images/volume-mute-solid.svg");
           background-repeat: no-repeat;
         }
       }

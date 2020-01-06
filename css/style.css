@@ -1123,12 +1123,12 @@ a.active[data-toggle="tab"] {
 }
 /* line 952, ../sass/style.scss */
 .bonus div#control-container div.amplitude-mute.amplitude-not-muted {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-players/volume.svg");
+  background: url("../images/volume-up-solid.svg");
   background-repeat: no-repeat;
 }
 /* line 957, ../sass/style.scss */
 .bonus div#control-container div.amplitude-mute.amplitude-muted {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/mute.svg");
+  background: url("../images/volume-mute-solid.svg");
   background-repeat: no-repeat;
 }
 /* line 964, ../sass/style.scss */
