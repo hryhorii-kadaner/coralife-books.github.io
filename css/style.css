@@ -971,14 +971,14 @@ a.active[data-toggle="tab"] {
 }
 /* line 793, ../sass/style.scss */
 .bonus div#progress-container input[type=range]::-ms-fill-lower {
-  background: #003d57;
+  background: #ff6777;
   border: 0px solid #010101;
   border-radius: 0px;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
 }
 /* line 800, ../sass/style.scss */
 .bonus div#progress-container input[type=range]::-ms-fill-upper {
-  background: #0075a9;
+  background: #D92437;
   border: 0px solid #010101;
   border-radius: 0px;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
@@ -986,22 +986,22 @@ a.active[data-toggle="tab"] {
 /* line 807, ../sass/style.scss */
 .bonus div#progress-container input[type=range]::-ms-thumb {
   box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 1px solid #00a0ff;
+  border: 1px solid #ff6777;
   height: 15px;
   width: 15px;
   border-radius: 16px;
-  background: #00a0ff;
+  background: #ff6777;
   cursor: pointer;
   height: 0px;
   display: block;
 }
 /* line 820, ../sass/style.scss */
 .bonus div#progress-container input[type=range]:focus::-ms-fill-lower {
-  background: #0075a9;
+  background: #ff6777;
 }
 /* line 824, ../sass/style.scss */
 .bonus div#progress-container input[type=range]:focus::-ms-fill-upper {
-  background: #00adfb;
+  background: #ff6777;
 }
 /* line 831, ../sass/style.scss */
 .bonus div#control-container {
@@ -1022,11 +1022,11 @@ a.active[data-toggle="tab"] {
 }
 /* line 847, ../sass/style.scss */
 .bonus div#control-container div#repeat-container div#repeat.amplitude-repeat-off {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/repeat-off.svg");
+  background: url("../images/repeat-off.svg");
 }
 /* line 851, ../sass/style.scss */
 .bonus div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/repeat-on.svg");
+  background: url("../images/repeat-on.svg");
 }
 /* line 856, ../sass/style.scss */
 .bonus div#control-container div#repeat-container div#shuffle {
@@ -1037,11 +1037,11 @@ a.active[data-toggle="tab"] {
 }
 /* line 862, ../sass/style.scss */
 .bonus div#control-container div#repeat-container div#shuffle.amplitude-shuffle-off {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-off.svg");
+  background: url("../images/shuffle-off.svg");
 }
 /* line 866, ../sass/style.scss */
 .bonus div#control-container div#repeat-container div#shuffle.amplitude-shuffle-on {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-on.svg");
+  background: url("../images/shuffle-on.svg");
 }
 /* line 873, ../sass/style.scss */
 .bonus div#control-container div#central-control-container {
@@ -1175,7 +1175,7 @@ a.active[data-toggle="tab"] {
 @media all and (-ms-high-contrast: none) {
   /* line 1014, ../sass/style.scss */
   .bonus div#progress-container *::-ms-backdrop, .bonus div#progress-container progress#song-played-progress {
-    color: #00A0FF;
+    color: #ff6777;
     border: none;
     background-color: #CFD8DC;
   }
@@ -1183,7 +1183,7 @@ a.active[data-toggle="tab"] {
 @supports (-ms-ime-align: auto) {
   /* line 1023, ../sass/style.scss */
   .bonus div#progress-container progress#song-played-progress {
-    color: #00A0FF;
+    color: #ff6777;
     border: none;
   }
 }
