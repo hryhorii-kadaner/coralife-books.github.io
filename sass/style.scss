@@ -42,6 +42,11 @@ $blk: black;
 .fz-40 {
 	font-size: 40px;
 }
+.nav-tabs li a[disabled] {
+	background: #C3C3C3!important;
+	color: white!important;
+}
+
 @media screen and (max-width: 576px){
 	.smallOn576 {
 		font-size: 15px!important;

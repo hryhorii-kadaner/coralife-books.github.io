@@ -70,7 +70,7 @@
 
     <ul class="nav nav-tabs w992 mx-auto mt-5" id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link r-text" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Организатор жизни</a>
+        <a class="nav-link r-text active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Организатор жизни</a>
       </li>
       <li class="nav-item">
         <a class="nav-link r-text" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Точка отсчёта</a>
@@ -79,12 +79,13 @@
         <a class="nav-link r-text" id="mandals-tab" data-toggle="tab" href="#mandals" role="tab" aria-controls="mandals" aria-selected="false">Мандалы</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link r-text active" id="bonus-tab" data-toggle="tab" href="#bonus" role="tab" aria-controls="bonus" aria-selected="false">Подарки</a>
+        <a class="nav-link r-text"  id="bonus-tab" data-toggle="tab" href="#bonus" role="tab" aria-controls="bonus" aria-selected="false" disabled>Подарок</a>
       </li>
+      <script src="js/date-checker.js"></script>
     </ul>
 
     <div class="tab-content" id="myTabContent">
-    	<section class="sec2 container-fluid tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+    	<section class="sec2 container-fluid tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
     		<div class="row w992 mx-auto">
     			<div class="col-12 text-center mx-auto mt-5 mb-5">
     				<h5>Дорогой читатель, ты видишь мою первую электронную книгу-тренинг <br> <span class="blue">"Организатор Жизни"</span></h5>
@@ -739,7 +740,7 @@
       </section>
       <script src="js/checker.js"></script>
 
-      <section class="bonus container-fluid tab-pane fade show active" id="bonus" role="tabpanel" aria-labelledby="bonus-tab">
+      <section class="bonus container-fluid tab-pane fade" id="bonus" role="tabpanel" aria-labelledby="bonus-tab">
         <div class="row w992 mx-auto">
           <!-- Blue Playlist Container -->
 <div id="blue-playlist-container" class="w-100">
@@ -901,7 +902,6 @@
    
    NOTE: These are for handling things outside of the scope of AmplitudeJS
    -->
-<script type="text/javascript" src="js/functions.js"></script>
           <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs/dist/amplitude.js"></script>
           <script src="js/amplitude-player.js"></script>
         </div>
