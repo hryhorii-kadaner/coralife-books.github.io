@@ -46,49 +46,49 @@ Amplitude.init({
     "songs": [
         {
             "name": "Прощение",
-            "artist": "Неизвестно",
+            "artist": "Возможности безграничны",
             "album": "Медитации",
             "url": "../audio/1.mp3",
             "cover_art_url": "images/album.jpg"
         },
         {
             "name": "Благодарность",
-            "artist": "Неизвестно",
+            "artist": "Возможности безграничны",
             "album": "Медитации",
             "url": "../audio/2.mp3",
             "cover_art_url": "images/album.jpg"
         },
         {
             "name": "Гармония и любовь в семье",
-            "artist": "Неизвестно",
+            "artist": "Возможности безграничны",
             "album": "Медитации",
             "url": "../audio/3.mp3",
             "cover_art_url": "images/album.jpg"
         },
         {
             "name": "Исцеление",
-            "artist": "Неизвестно",
+            "artist": "Возможности безграничны",
             "album": "Медитации",
             "url": "../audio/4.mp3",
             "cover_art_url": "images/album.jpg"
         },
         {
             "name": "Волшебная медитация",
-            "artist": "Неизвестно",
+            "artist": "Возможности безграничны",
             "album": "Медитации",
             "url": "../audio/5.mp3",
             "cover_art_url": "images/album.jpg"
         },
         {
             "name": "Деньги",
-            "artist": "Неизвестно",
+            "artist": "Возможности безграничны",
             "album": "Медитации",
             "url": "../audio/6.mp3",
             "cover_art_url": "images/album.jpg"
         },
         {
             "name": "Любовь к себе",
-            "artist": "Неизвестно",
+            "artist": "Возможности безграничны",
             "album": "Медитации",
             "url": "../audio/7.mp3",
             "cover_art_url": "images/album.jpg"
