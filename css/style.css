@@ -725,8 +725,8 @@ a.active[data-toggle="tab"] {
   margin-right: 10px;
 }
 /* line 530, ../sass/style.scss */
-.bonus div#amplitude-right div.song div.song-now-playing-icon-container img.now-playing {
-  display: none;
+.bonus div#amplitude-right div.song div.song-now-playing-icon-container svg.now-playing {
+  display: none !important;
   margin-top: 15px;
 }
 /* line 536, ../sass/style.scss */
@@ -742,12 +742,12 @@ a.active[data-toggle="tab"] {
   background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/list-play-hover.png") no-repeat;
 }
 /* line 550, ../sass/style.scss */
-.bonus div#amplitude-right div.song.amplitude-active-song-container div.song-now-playing-icon-container img.now-playing {
-  display: block;
+.bonus div#amplitude-right div.song.amplitude-active-song-container div.song-now-playing-icon-container svg.now-playing {
+  display: block !important;
 }
 /* line 554, ../sass/style.scss */
 .bonus div#amplitude-right div.song.amplitude-active-song-container:hover div.play-button-container {
-  display: none;
+  display: none !important;
 }
 /* line 559, ../sass/style.scss */
 .bonus div#amplitude-right div.song div.song-meta-data {
@@ -766,7 +766,7 @@ a.active[data-toggle="tab"] {
 }
 /* line 574, ../sass/style.scss */
 .bonus div#amplitude-right div.song div.song-meta-data span.song-artist {
-  color: #607D8B;
+  color: #ff909c;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -793,7 +793,7 @@ a.active[data-toggle="tab"] {
   width: 55px;
   text-align: center;
   line-height: 45px;
-  color: #607D8B;
+  color: #141414;
   font-size: 16px;
   font-weight: 500;
 }
@@ -847,14 +847,14 @@ a.active[data-toggle="tab"] {
 }
 /* line 665, ../sass/style.scss */
 .bonus div#progress-container progress#song-played-progress[value]::-webkit-progress-value {
-  background-color: #00A0FF;
+  background-color: #ff6777;
   border-radius: 5px;
 }
 /* line 671, ../sass/style.scss */
 .bonus div#progress-container progress#song-played-progress::-moz-progress-bar {
   background: none;
   border-radius: 5px;
-  background-color: #00A0FF;
+  background-color: #ff6777;
   height: 5px;
   margin-top: -2px;
 }
@@ -882,7 +882,7 @@ a.active[data-toggle="tab"] {
 }
 /* line 702, ../sass/style.scss */
 .bonus div#progress-container progress#song-buffered-progress[value]::-webkit-progress-value {
-  background-color: #78909C;
+  background-color: #ff8b97;
   border-radius: 5px;
   transition: width .1s ease;
 }
@@ -890,7 +890,7 @@ a.active[data-toggle="tab"] {
 .bonus div#progress-container progress#song-buffered-progress::-moz-progress-bar {
   background: none;
   border-radius: 5px;
-  background-color: #78909C;
+  background-color: #ff8b97;
   height: 5px;
   margin-top: -2px;
 }
@@ -920,25 +920,25 @@ a.active[data-toggle="tab"] {
   height: 0px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: #0075a9;
+  background: #ff6777;
   border-radius: 0px;
   border: 0px solid #010101;
 }
 /* line 748, ../sass/style.scss */
 .bonus div#progress-container input[type=range]::-webkit-slider-thumb {
   box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 1px solid #00a0ff;
+  border: 1px solid #ff6777;
   height: 15px;
   width: 15px;
   border-radius: 16px;
-  background: #00a0ff;
+  background: #ff6777;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -7.5px;
 }
 /* line 760, ../sass/style.scss */
 .bonus div#progress-container input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #00adfb;
+  background: #ff6777;
 }
 /* line 764, ../sass/style.scss */
 .bonus div#progress-container input[type=range]::-moz-range-track {
@@ -946,18 +946,18 @@ a.active[data-toggle="tab"] {
   height: 0px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: #0075a9;
+  background: #ff6777;
   border-radius: 0px;
   border: 0px solid #010101;
 }
 /* line 774, ../sass/style.scss */
 .bonus div#progress-container input[type=range]::-moz-range-thumb {
   box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 1px solid #00a0ff;
+  border: 1px solid #ff6777;
   height: 15px;
   width: 15px;
   border-radius: 16px;
-  background: #00a0ff;
+  background: #ff6777;
   cursor: pointer;
 }
 /* line 784, ../sass/style.scss */
@@ -1059,7 +1059,7 @@ a.active[data-toggle="tab"] {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/prev.svg");
+  background: url("../images/step-backward-solid.svg");
   background-repeat: no-repeat;
   float: left;
   margin-top: 10px;
@@ -1075,11 +1075,11 @@ a.active[data-toggle="tab"] {
 }
 /* line 901, ../sass/style.scss */
 .bonus div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/play.svg");
+  background: url("../images/pause-circle-solid.svg");
 }
 /* line 905, ../sass/style.scss */
 .bonus div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/pause.svg");
+  background: url("../images/play-circle-solid.svg");
 }
 /* line 910, ../sass/style.scss */
 .bonus div#control-container div#central-control-container div#central-controls div#next {
@@ -1087,7 +1087,7 @@ a.active[data-toggle="tab"] {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/next.svg");
+  background: url("../images/step-forward-solid.svg");
   background-repeat: no-repeat;
   float: left;
   margin-top: 10px;
@@ -1324,7 +1324,7 @@ a.active[data-toggle="tab"] {
   height: 10px;
   width: 10px;
   border-radius: 10px;
-  background: #00A0FF;
+  background: #ff6777;
   cursor: pointer;
   margin-top: -4px;
   -webkit-appearance: none;
@@ -1346,7 +1346,7 @@ a.active[data-toggle="tab"] {
   height: 10px;
   width: 10px;
   border-radius: 10px;
-  background: #00A0FF;
+  background: #ff6777;
   cursor: pointer;
   margin-top: -4px;
 }
@@ -1373,7 +1373,7 @@ a.active[data-toggle="tab"] {
   height: 10px;
   width: 10px;
   border-radius: 10px;
-  background: #00A0FF;
+  background: #ff6777;
   cursor: pointer;
   margin-top: 2px;
 }
@@ -1469,20 +1469,20 @@ a.active[data-toggle="tab"] {
 }
 /* line 1345, ../sass/style.scss */
 .bonus div.amplitude-wave-form svg {
-  stroke: #00a0ff;
+  stroke: #ff8b97;
   height: 50px;
   width: 100%;
   stroke-width: .5px;
 }
 /* line 1351, ../sass/style.scss */
 .bonus div.amplitude-wave-form svg g {
-  stroke: #00a0ff;
+  stroke: #ff8b97;
   height: 50px;
   width: 100%;
 }
 /* line 1356, ../sass/style.scss */
 .bonus div.amplitude-wave-form svg g path {
-  stroke: #00a0ff;
+  stroke: #ff8b97;
   height: 50px;
   width: 100%;
 }

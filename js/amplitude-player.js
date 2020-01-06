@@ -10,10 +10,12 @@ for( var i = 0; i < songElements.length; i++ ){
         Ensure that on mouseover, CSS styles don't get messed up for active songs.
     */
     songElements[i].addEventListener('mouseover', function(){
-        this.style.backgroundColor = '#00A0FF';
+        this.style.backgroundColor = '#ff6777';
 
         this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#FFFFFF';
         this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#FFFFFF';
+        this.querySelectorAll('.song-duration')[0].style.color = '#FFFFFF';
+
 
         if( !this.classList.contains('amplitude-active-song-container') ){
             this.querySelectorAll('.play-button-container')[0].style.display = 'block';
@@ -26,9 +28,9 @@ for( var i = 0; i < songElements.length; i++ ){
     songElements[i].addEventListener('mouseout', function(){
         this.style.backgroundColor = '#FFFFFF';
         this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#272726';
-        this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#607D8B';
+        this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#ff6777';
         this.querySelectorAll('.play-button-container')[0].style.display = 'none';
-        this.querySelectorAll('.song-duration')[0].style.color = '#607D8B';
+        this.querySelectorAll('.song-duration')[0].style.color = '#000';
     });
 
     /*
