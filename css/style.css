@@ -1075,11 +1075,11 @@ a.active[data-toggle="tab"] {
 }
 /* line 901, ../sass/style.scss */
 .bonus div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-  background: url("../images/pause-circle-solid.svg");
+  background: url("../images/play-circle-solid.svg");
 }
 /* line 905, ../sass/style.scss */
 .bonus div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
-  background: url("../images/play-circle-solid.svg");
+  background: url("../images/pause-circle-solid.svg");
 }
 /* line 910, ../sass/style.scss */
 .bonus div#control-container div#central-control-container div#central-controls div#next {
@@ -1108,11 +1108,11 @@ a.active[data-toggle="tab"] {
 }
 /* line 936, ../sass/style.scss */
 .bonus div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-off.svg");
+  background: url("../images/shuffle-off.svg");
 }
 /* line 940, ../sass/style.scss */
 .bonus div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-on {
-  background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-on.svg");
+  background: url("../images/shuffle-on.svg");
 }
 /* line 946, ../sass/style.scss */
 .bonus div#control-container div.amplitude-mute {

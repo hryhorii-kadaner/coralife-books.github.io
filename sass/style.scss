@@ -899,11 +899,11 @@ div {
               float: left;
 
               &.amplitude-paused {
-                background: url("../images/pause-circle-solid.svg");
+                background: url("../images/play-circle-solid.svg");
               }
 
               &.amplitude-playing {
-                background: url("../images/play-circle-solid.svg");
+                background: url("../images/pause-circle-solid.svg");
               }
             }
 
@@ -934,11 +934,11 @@ div {
           margin: auto;
 
           &.amplitude-shuffle-off {
-            background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-off.svg");
+            background: url("../images/shuffle-off.svg");
           }
 
           &.amplitude-shuffle-on {
-            background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-on.svg");
+            background: url("../images/shuffle-on.svg");
           }
         }
       }
