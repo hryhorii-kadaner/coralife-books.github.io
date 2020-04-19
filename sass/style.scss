@@ -12,8 +12,8 @@
 }
 
 .hid {
-  visibility: hidden !important;
-  display: none !important;
+  visibility: hidden;
+  display: none;
 }
 
 body {
@@ -26,25 +26,25 @@ $gr: green;
 $blk: black;
 
 .blue {
-  color: $blu !important;
+  color: $blu;
 }
 .lh-2 {
   line-height: 1.7;
 }
 .blck {
-  color: $blk !important;
+  color: $blk;
 }
 
 .green {
-  color: $gr !important;
+  color: $gr;
 }
 
 .r-text {
-  color: $rd !important;
+  color: $rd;
 }
 
 .rad-30 {
-  border-radius: 30px !important;
+  border-radius: 30px;
 }
 
 .fz-40 {
@@ -52,25 +52,25 @@ $blk: black;
 }
 
 .nav-tabs li a[disabled] {
-  background: #C3C3C3 !important;
-  color: white !important;
+  background: #C3C3C3;
+  color: white;
 }
 
 @media screen and (max-width: 576px) {
   .smallOn576 {
-    font-size: 15px !important;
+    font-size: 15px;
 
     i[data-brand="google"] {
-      font-size: 15px !important;
+      font-size: 15px;
     }
   }
 
   @media screen and (max-width: 350px) {
     .smallOn576 {
-      font-size: 13px !important;
+      font-size: 13px;
 
       i[data-brand="google"] {
-        font-size: 13px !important;
+        font-size: 13px;
       }
     }
   }
@@ -93,12 +93,13 @@ $blk: black;
 
 #shower,
 #shower2,
-#shower3 {
+#shower3,
+#shower4 {
   display: none;
   font-size: 25px;
   font-weight: bolder;
   color: $rd;
-  text-align: center !important;
+  text-align: center;
 }
 
 
@@ -141,12 +142,16 @@ div[role="listitem"]:active * {
 #name,
 #name_next,
 #name_third,
+#name_fourth,
 #text,
 #text_next,
-#email_third,
+#text_third,
+#text_fourth,
 #email,
 #email_next,
-#text_third {
+#email_third,
+#email_fourth
+ {
   width: 100%;
   color: $rd;
   padding: .25em 1em .25em 1em;
@@ -164,7 +169,8 @@ div[role="listitem"]:active * {
 
 #submit,
 #submit2,
-#submit3 {
+#submit3,
+#submit4 {
   border-radius: 30px;
 }
 
@@ -315,9 +321,9 @@ div[role="listitem"]:active * {
     margin-bottom: 1em;
 
     @media screen and (max-width: 992px) {
-      display: block !important;
-      margin-right: auto !important;
-      margin-left: auto !important;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 }
@@ -1546,6 +1552,31 @@ a.active[data-toggle="tab"] {
   
 }
 
+.magnit {
+  @extend .organizer;
+  .list-group-item:not(.active){
+    @extend .lh-2;
+    height: 100%;
+  }
+  .row {
+    .ul-cont {
+      @media screen and (max-width:768px){
+        padding: 0;
+      }
+      .blockquote2 {
+          @media screen and (max-width:768px){
+            border:none !important;            
+          }
+          @media screen and (max-width:576px){
+            padding: .75rem !important;
+          }
+      }
+    }
+  }
+  
+  
+  
+}
 /*****************************************footer*****************************************/
 
 .col_white_amrc {
@@ -1707,7 +1738,6 @@ footer p {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    float: left;
 
     i {
       width: 2em;

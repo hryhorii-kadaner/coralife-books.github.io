@@ -53,23 +53,31 @@ function checkParamsThird() {
 }
 checkParamsThird();
 
+
 function hideshowThird() {
 	document.getElementById("formHider3").style.cssText="animation:hierrr 1s 1 linear;display:none;";
 	document.getElementById("shower3").style.cssText="display:block;animation:showwww 1s 1 linear;";
 }
-// function firstButtonActive() {
-// 		$(".life-organizer").css("display", "",);
-// 		$(".training").css("display", "none");
-// }
-// firstButtonActive();
 
-// function secondButtonActive() {
-// 	$(".life-organizer").css("display", "none");
-// 	$(".training").css("display", "");
-// }
-// $('#subm').click(function remover(){
-// 	$('.privat').removeAttr('disabled');
-// });
+function checkParamsMagnit() {
+	var nameFourth = $('#name_fourth').val();
+	var emailFourth = $('#email_fourth').val();
+	var textFourth = $('#text_fourth').val();
+
+	if(emailFourth.indexOf('@') != -1 && nameFourth.length != 0 && textFourth.length != 0) {
+		$('#submit4').removeAttr('disabled');
+	} else {
+		$('#submit4').attr('disabled', 'disabled');
+	}
+}
+checkParamsMagnit();
+
+function hideshowMagnit() {
+	document.getElementById("formHider4").style.cssText="animation:hierrr 1s 1 linear;display:none;";
+	document.getElementById("shower4").style.cssText="display:block;animation:showwww 1s 1 linear;";
+}
+
+
 
 $(function () {
   $(document).scroll(function () {
