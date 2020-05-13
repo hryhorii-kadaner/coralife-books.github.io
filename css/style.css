@@ -91,7 +91,7 @@ body {
 }
 
 /* line 31, ../sass/style.scss */
-.lh-2, .magnit .list-group-item:not(.active) {
+.lh-2, .magnit .list-group-item:not(.active), .helena .list-group-item:not(.active) {
   line-height: 1.7;
 }
 
@@ -353,64 +353,64 @@ div[role="listitem"]:active * {
 }
 
 /* line 242, ../sass/style.scss */
-.sec2 h5, .organizer h5, .magnit h5, .mandals h5, .bonus h5, .training h5 {
+.sec2 h5, .organizer h5, .magnit h5, .helena h5, .mandals h5, .bonus h5, .training h5 {
   font-size: 30px;
   color: #ff6777;
   font-weight: bold;
   line-height: 1.4;
 }
 /* line 250, ../sass/style.scss */
-.sec2 .descr h5, .organizer .descr h5, .magnit .descr h5, .mandals .descr h5, .bonus .descr h5, .training .descr h5 {
+.sec2 .descr h5, .organizer .descr h5, .magnit .descr h5, .helena .descr h5, .mandals .descr h5, .bonus .descr h5, .training .descr h5 {
   font-size: 30px;
   color: #ff6777;
   font-weight: bold;
 }
 @media screen and (max-width: 992px) {
   /* line 250, ../sass/style.scss */
-  .sec2 .descr h5, .organizer .descr h5, .magnit .descr h5, .mandals .descr h5, .bonus .descr h5, .training .descr h5 {
+  .sec2 .descr h5, .organizer .descr h5, .magnit .descr h5, .helena .descr h5, .mandals .descr h5, .bonus .descr h5, .training .descr h5 {
     text-align: center;
     padding-top: 1.5rem;
   }
 }
 /* line 262, ../sass/style.scss */
-.sec2 .descr ul li, .organizer .descr ul li, .magnit .descr ul li, .mandals .descr ul li, .bonus .descr ul li, .training .descr ul li {
+.sec2 .descr ul li, .organizer .descr ul li, .magnit .descr ul li, .helena .descr ul li, .mandals .descr ul li, .bonus .descr ul li, .training .descr ul li {
   font-weight: 400;
   font-size: 18px;
   color: #286d9d;
   line-height: 1.2;
 }
 /* line 269, ../sass/style.scss */
-.sec2 .descr ul li:before, .organizer .descr ul li:before, .magnit .descr ul li:before, .mandals .descr ul li:before, .bonus .descr ul li:before, .training .descr ul li:before {
+.sec2 .descr ul li:before, .organizer .descr ul li:before, .magnit .descr ul li:before, .helena .descr ul li:before, .mandals .descr ul li:before, .bonus .descr ul li:before, .training .descr ul li:before {
   content: '\2713   ';
   color: #ff6777;
   font-weight: bolder;
   font-size: 22px;
 }
 /* line 279, ../sass/style.scss */
-.sec2 .lh-2, .organizer .lh-2, .magnit .lh-2, .mandals .lh-2, .bonus .lh-2, .training .lh-2, .magnit .list-group-item:not(.active) {
+.sec2 .lh-2, .organizer .lh-2, .magnit .lh-2, .helena .lh-2, .mandals .lh-2, .bonus .lh-2, .training .lh-2, .magnit .list-group-item:not(.active), .helena .list-group-item:not(.active) {
   line-height: 1.7 !important;
 }
 @media screen and (max-width: 576px) {
   /* line 284, ../sass/style.scss */
-  .sec2 .float-md-left, .organizer .float-md-left, .magnit .float-md-left, .mandals .float-md-left, .bonus .float-md-left, .training .float-md-left {
+  .sec2 .float-md-left, .organizer .float-md-left, .magnit .float-md-left, .helena .float-md-left, .mandals .float-md-left, .bonus .float-md-left, .training .float-md-left {
     float: none !important;
   }
 }
 /* line 289, ../sass/style.scss */
-.sec2 #ifr, .organizer #ifr, .magnit #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
+.sec2 #ifr, .organizer #ifr, .magnit #ifr, .helena #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
   width: 550px;
   height: 350px;
 }
 @media screen and (max-width: 1280px) {
   /* line 289, ../sass/style.scss */
-  .sec2 #ifr, .organizer #ifr, .magnit #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
+  .sec2 #ifr, .organizer #ifr, .magnit #ifr, .helena #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
     width: 100%;
     height: 350px;
   }
 }
 @media screen and (max-width: 1280px) and (max-width: 992px) {
   /* line 289, ../sass/style.scss */
-  .sec2 #ifr, .organizer #ifr, .magnit #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
+  .sec2 #ifr, .organizer #ifr, .magnit #ifr, .helena #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
     width: 80%;
     height: 350px;
   }
@@ -418,7 +418,7 @@ div[role="listitem"]:active * {
 
 @media screen and (max-width: 1280px) and (max-width: 992px) and (max-width: 576px) {
   /* line 289, ../sass/style.scss */
-  .sec2 #ifr, .organizer #ifr, .magnit #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
+  .sec2 #ifr, .organizer #ifr, .magnit #ifr, .helena #ifr, .mandals #ifr, .bonus #ifr, .training #ifr {
     width: 100% !important;
     height: 30vh !important;
   }
@@ -464,26 +464,26 @@ div[role="listitem"]:active * {
   font-weight: bold;
 }
 /* line 352, ../sass/style.scss */
-.public-offert .sec2 blockquote *, .public-offert .organizer blockquote *, .public-offert .magnit blockquote *, .public-offert .mandals blockquote *, .public-offert .bonus blockquote *, .public-offert .training blockquote * {
+.public-offert .sec2 blockquote *, .public-offert .organizer blockquote *, .public-offert .magnit blockquote *, .public-offert .helena blockquote *, .public-offert .mandals blockquote *, .public-offert .bonus blockquote *, .public-offert .training blockquote * {
   line-height: 1.5;
   font-size: 18px;
 }
 /* line 357, ../sass/style.scss */
-.public-offert .sec2 blockquote h2, .public-offert .organizer blockquote h2, .public-offert .magnit blockquote h2, .public-offert .mandals blockquote h2, .public-offert .bonus blockquote h2, .public-offert .training blockquote h2 {
+.public-offert .sec2 blockquote h2, .public-offert .organizer blockquote h2, .public-offert .magnit blockquote h2, .public-offert .helena blockquote h2, .public-offert .mandals blockquote h2, .public-offert .bonus blockquote h2, .public-offert .training blockquote h2 {
   font-size: 23px;
   font-weight: bold;
 }
 /* line 361, ../sass/style.scss */
-.public-offert .sec2 blockquote h2 a, .public-offert .organizer blockquote h2 a, .public-offert .magnit blockquote h2 a, .public-offert .mandals blockquote h2 a, .public-offert .bonus blockquote h2 a, .public-offert .training blockquote h2 a {
+.public-offert .sec2 blockquote h2 a, .public-offert .organizer blockquote h2 a, .public-offert .magnit blockquote h2 a, .public-offert .helena blockquote h2 a, .public-offert .mandals blockquote h2 a, .public-offert .bonus blockquote h2 a, .public-offert .training blockquote h2 a {
   color: #ff6777;
   font-size: 25px;
 }
 /* line 367, ../sass/style.scss */
-.public-offert .sec2 blockquote .fz-20, .public-offert .organizer blockquote .fz-20, .public-offert .magnit blockquote .fz-20, .public-offert .mandals blockquote .fz-20, .public-offert .bonus blockquote .fz-20, .public-offert .training blockquote .fz-20 {
+.public-offert .sec2 blockquote .fz-20, .public-offert .organizer blockquote .fz-20, .public-offert .magnit blockquote .fz-20, .public-offert .helena blockquote .fz-20, .public-offert .mandals blockquote .fz-20, .public-offert .bonus blockquote .fz-20, .public-offert .training blockquote .fz-20 {
   font-size: 20px;
 }
 /* line 372, ../sass/style.scss */
-.public-offert .sec2 blockquote ol li, .public-offert .organizer blockquote ol li, .public-offert .magnit blockquote ol li, .public-offert .mandals blockquote ol li, .public-offert .bonus blockquote ol li, .public-offert .training blockquote ol li {
+.public-offert .sec2 blockquote ol li, .public-offert .organizer blockquote ol li, .public-offert .magnit blockquote ol li, .public-offert .helena blockquote ol li, .public-offert .mandals blockquote ol li, .public-offert .bonus blockquote ol li, .public-offert .training blockquote ol li {
   padding-top: 1em;
 }
 
@@ -494,22 +494,22 @@ a.active[data-toggle="tab"] {
 }
 
 /* line 388, ../sass/style.scss */
-.organizer h5, .magnit h5 {
+.organizer h5, .magnit h5, .helena h5 {
   font-size: 30px;
 }
 /* line 391, ../sass/style.scss */
-.organizer h5 span, .magnit h5 span {
+.organizer h5 span, .magnit h5 span, .helena h5 span {
   font-size: 20px;
 }
 /* line 397, ../sass/style.scss */
-.organizer .ul-cont .active, .magnit .ul-cont .active {
+.organizer .ul-cont .active, .magnit .ul-cont .active, .helena .ul-cont .active {
   position: relative;
   background: #ff6777;
   color: white;
   border-color: #ff6777;
 }
 /* line 404, ../sass/style.scss */
-.organizer .ul-cont .invesre, .magnit .ul-cont .invesre {
+.organizer .ul-cont .invesre, .magnit .ul-cont .invesre, .helena .ul-cont .invesre {
   text-align: center;
   max-width: 60px;
   background: #ff6777;
@@ -520,47 +520,47 @@ a.active[data-toggle="tab"] {
   font-weight: bold;
 }
 /* line 415, ../sass/style.scss */
-.organizer .ul-cont blockquote, .magnit .ul-cont blockquote {
+.organizer .ul-cont blockquote, .magnit .ul-cont blockquote, .helena .ul-cont blockquote {
   border-left: 8px solid rgba(255, 103, 119, 0.6) !important;
 }
 /* line 418, ../sass/style.scss */
-.organizer .ul-cont blockquote:before, .magnit .ul-cont blockquote:before {
+.organizer .ul-cont blockquote:before, .magnit .ul-cont blockquote:before, .helena .ul-cont blockquote:before {
   color: rgba(255, 103, 119, 0.6) !important;
 }
 /* line 422, ../sass/style.scss */
-.organizer .ul-cont blockquote p, .magnit .ul-cont blockquote p {
+.organizer .ul-cont blockquote p, .magnit .ul-cont blockquote p, .helena .ul-cont blockquote p {
   color: #ff6777;
   font-weight: bold;
   font-size: 18px;
 }
 /* line 430, ../sass/style.scss */
-.organizer .ul-cont .blockquote2 p, .magnit .ul-cont .blockquote2 p {
+.organizer .ul-cont .blockquote2 p, .magnit .ul-cont .blockquote2 p, .helena .ul-cont .blockquote2 p {
   font-size: 18px;
   font-weight: normal;
   color: black;
 }
 /* line 436, ../sass/style.scss */
-.organizer .ul-cont .blockquote2 h3, .magnit .ul-cont .blockquote2 h3 {
+.organizer .ul-cont .blockquote2 h3, .magnit .ul-cont .blockquote2 h3, .helena .ul-cont .blockquote2 h3 {
   font-size: 20px;
   line-height: 1.7;
 }
 /* line 442, ../sass/style.scss */
-.organizer .ul-cont .blockquote2 ul li, .magnit .ul-cont .blockquote2 ul li {
+.organizer .ul-cont .blockquote2 ul li, .magnit .ul-cont .blockquote2 ul li, .helena .ul-cont .blockquote2 ul li {
   font-size: 18px;
 }
 /* line 449, ../sass/style.scss */
-.organizer .spinner-border, .magnit .spinner-border {
+.organizer .spinner-border, .magnit .spinner-border, .helena .spinner-border {
   width: 1.25em;
   height: 1.25em;
 }
 /* line 454, ../sass/style.scss */
-.organizer iframe, .magnit iframe {
+.organizer iframe, .magnit iframe, .helena iframe {
   width: 100%;
   height: 350px;
 }
 @media screen and (max-width: 768px) {
   /* line 454, ../sass/style.scss */
-  .organizer iframe, .magnit iframe {
+  .organizer iframe, .magnit iframe, .helena iframe {
     height: 270px;
   }
 }
@@ -1582,36 +1582,69 @@ a.active[data-toggle="tab"] {
   visibility: hidden;
 }
 
-/* line 1557, ../sass/style.scss */
-.magnit .list-group-item:not(.active) {
+@media screen and (max-width: 768px) {
+  /* line 1558, ../sass/style.scss */
+  .helena .text-uppercase {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 1563, ../sass/style.scss */
+  .helena h5 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 1569, ../sass/style.scss */
+  .helena .central-text h5 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* line 1569, ../sass/style.scss */
+  .helena .central-text h5 {
+    font-size: 18px;
+  }
+}
+/* line 1579, ../sass/style.scss */
+.helena blockquote:nth-child(1) {
+  line-height: 1.7;
+}
+/* line 1582, ../sass/style.scss */
+.helena blockquote:nth-child(2) {
+  line-height: 1.7;
+}
+
+/* line 1589, ../sass/style.scss */
+.magnit .list-group-item:not(.active), .helena .list-group-item:not(.active) {
   height: 100%;
 }
 @media screen and (max-width: 768px) {
-  /* line 1562, ../sass/style.scss */
-  .magnit .row .ul-cont {
+  /* line 1594, ../sass/style.scss */
+  .magnit .row .ul-cont, .helena .row .ul-cont {
     padding: 0;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 1566, ../sass/style.scss */
-  .magnit .row .ul-cont .blockquote2 {
+  /* line 1598, ../sass/style.scss */
+  .magnit .row .ul-cont .blockquote2, .helena .row .ul-cont .blockquote2 {
     border: none !important;
   }
 }
 @media screen and (max-width: 576px) {
-  /* line 1566, ../sass/style.scss */
-  .magnit .row .ul-cont .blockquote2 {
+  /* line 1598, ../sass/style.scss */
+  .magnit .row .ul-cont .blockquote2, .helena .row .ul-cont .blockquote2 {
     padding: .75rem !important;
   }
 }
 
 /*****************************************footer*****************************************/
-/* line 1582, ../sass/style.scss */
+/* line 1614, ../sass/style.scss */
 .col_white_amrc {
   color: white;
 }
 
-/* line 1586, ../sass/style.scss */
+/* line 1618, ../sass/style.scss */
 footer {
   -webkit-clip-path: polygon(0% 0%, 50% 12%, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 50% 12%, 100% 0, 100% 100%, 0% 100%);
@@ -1622,12 +1655,12 @@ footer {
   z-index: 1000;
   font-family: 'Montserrat', serif;
 }
-/* line 1596, ../sass/style.scss */
+/* line 1628, ../sass/style.scss */
 footer a {
   color: white !important;
 }
 
-/* line 1601, ../sass/style.scss */
+/* line 1633, ../sass/style.scss */
 .pt2 {
   font-family: 'Montserrat', serif;
   font-size: 18px;
@@ -1635,12 +1668,12 @@ footer a {
   margin-bottom: 20px;
 }
 
-/* line 1608, ../sass/style.scss */
+/* line 1640, ../sass/style.scss */
 .headin5_amrc {
   font-weight: bold;
 }
 
-/* line 1612, ../sass/style.scss */
+/* line 1644, ../sass/style.scss */
 footer p {
   font-size: 16px;
   color: white;
@@ -1648,95 +1681,95 @@ footer p {
   margin-bottom: 8px;
 }
 
-/* line 1619, ../sass/style.scss */
+/* line 1651, ../sass/style.scss */
 .mb10 {
   padding-bottom: 15px;
 }
 
-/* line 1623, ../sass/style.scss */
+/* line 1655, ../sass/style.scss */
 .footer_ul_amrc {
   margin: 0px;
   list-style-type: none;
   font-size: 16px;
   padding: 0px 0px 10px 0px;
 }
-/* line 1629, ../sass/style.scss */
+/* line 1661, ../sass/style.scss */
 .footer_ul_amrc li {
   padding: 0px 0px 5px 0px;
 }
-/* line 1632, ../sass/style.scss */
+/* line 1664, ../sass/style.scss */
 .footer_ul_amrc li a {
   color: lightgray;
   transition: .5s;
 }
-/* line 1636, ../sass/style.scss */
+/* line 1668, ../sass/style.scss */
 .footer_ul_amrc li a:hover {
   color: white;
   text-decoration: none;
   transition: .5s;
 }
 
-/* line 1646, ../sass/style.scss */
+/* line 1678, ../sass/style.scss */
 .fleft {
   float: left;
   font-size: 1.5em;
   color: #fff;
 }
 
-/* line 1652, ../sass/style.scss */
+/* line 1684, ../sass/style.scss */
 .padding-right {
   padding-right: 10px;
 }
 
-/* line 1656, ../sass/style.scss */
+/* line 1688, ../sass/style.scss */
 .footer_ul2_amrc {
   margin: 0px;
   list-style-type: none;
   padding: 0px;
   font-size: 1.3em;
 }
-/* line 1663, ../sass/style.scss */
+/* line 1695, ../sass/style.scss */
 .footer_ul2_amrc li p {
   display: contents;
   color: lightgray;
 }
-/* line 1668, ../sass/style.scss */
+/* line 1700, ../sass/style.scss */
 .footer_ul2_amrc li a {
   color: lightblue;
 }
-/* line 1671, ../sass/style.scss */
+/* line 1703, ../sass/style.scss */
 .footer_ul2_amrc li a:hover {
   text-decoration: underline;
 }
-/* line 1676, ../sass/style.scss */
+/* line 1708, ../sass/style.scss */
 .footer_ul2_amrc li i {
   margin-top: 5px;
   color: white;
 }
-/* line 1680, ../sass/style.scss */
+/* line 1712, ../sass/style.scss */
 .footer_ul2_amrc li i:hover {
   color: #ff6777 !important;
 }
 
-/* line 1687, ../sass/style.scss */
+/* line 1719, ../sass/style.scss */
 .bottom_border {
   border-bottom: 1px solid white;
   padding-bottom: 20px;
 }
 
-/* line 1692, ../sass/style.scss */
+/* line 1724, ../sass/style.scss */
 .mailto_link {
   text-decoration: none;
   color: white;
   transition: .5s;
 }
-/* line 1697, ../sass/style.scss */
+/* line 1729, ../sass/style.scss */
 .mailto_link a {
   text-decoration: none;
   color: white;
   transition: .5s;
 }
-/* line 1703, ../sass/style.scss */
+/* line 1735, ../sass/style.scss */
 .mailto_link:hover,
 .mailto_link a:hover {
   color: #ff6777 !important;
@@ -1744,7 +1777,7 @@ footer p {
   transition: .3s;
 }
 
-/* line 1711, ../sass/style.scss */
+/* line 1743, ../sass/style.scss */
 .foote_bottom_ul_amrc {
   list-style-type: none;
   padding: 0px;
@@ -1754,38 +1787,38 @@ footer p {
   margin-bottom: 10px;
   margin-left: auto;
 }
-/* line 1720, ../sass/style.scss */
+/* line 1752, ../sass/style.scss */
 .foote_bottom_ul_amrc li {
   display: inline;
 }
-/* line 1723, ../sass/style.scss */
+/* line 1755, ../sass/style.scss */
 .foote_bottom_ul_amrc li a {
   color: white;
   margin: 0 12px;
 }
 
-/* line 1730, ../sass/style.scss */
+/* line 1762, ../sass/style.scss */
 .social_footer_ul {
   display: table;
   margin: 15px auto 0 auto;
   list-style-type: none;
   padding: 0;
 }
-/* line 1736, ../sass/style.scss */
+/* line 1768, ../sass/style.scss */
 .social_footer_ul li {
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
 }
-/* line 1742, ../sass/style.scss */
+/* line 1774, ../sass/style.scss */
 .social_footer_ul li i {
   width: 2em;
   height: 2em;
   text-align: center;
   transition: .6s;
 }
-/* line 1749, ../sass/style.scss */
+/* line 1781, ../sass/style.scss */
 .social_footer_ul li a {
   width: 42px;
   height: 42px;
@@ -1799,19 +1832,19 @@ footer p {
   margin-bottom: 1em;
   text-align: center;
 }
-/* line 1762, ../sass/style.scss */
+/* line 1794, ../sass/style.scss */
 .social_footer_ul li a:hover {
   color: #ff6777;
   box-shadow: 0 0 20px white;
 }
 
-/* line 1771, ../sass/style.scss */
+/* line 1803, ../sass/style.scss */
 .payments p {
   color: white !important;
   font-size: 40px !important;
 }
 
-/* line 1776, ../sass/style.scss */
+/* line 1808, ../sass/style.scss */
 .lightbg {
   position: relative;
   bottom: 4px;
@@ -1823,33 +1856,33 @@ footer p {
   font-size: 30px;
 }
 
-/* line 1787, ../sass/style.scss */
+/* line 1819, ../sass/style.scss */
 .mwdth320 {
   max-width: 320px !important;
 }
 
-/* line 1791, ../sass/style.scss */
+/* line 1823, ../sass/style.scss */
 .non-rd {
   color: black !important;
 }
-/* line 1794, ../sass/style.scss */
+/* line 1826, ../sass/style.scss */
 .non-rd p,
 .non-rd h5 {
   color: #ff6777 !important;
   font-size: 22px;
 }
-/* line 1800, ../sass/style.scss */
+/* line 1832, ../sass/style.scss */
 .non-rd li {
   font-size: 18px !important;
   margin-top: 1.5rem;
 }
-/* line 1805, ../sass/style.scss */
+/* line 1837, ../sass/style.scss */
 .non-rd .blck {
   color: black;
   font-size: 15px;
 }
 
-/* line 1811, ../sass/style.scss */
+/* line 1843, ../sass/style.scss */
 blockquote, .training blockquote {
   margin: 0 !important;
   padding: 30px 30px 30px 60px !important;
@@ -1859,7 +1892,7 @@ blockquote, .training blockquote {
   font-family: 'Lato', sans-serif !important;
   font-weight: 300 !important;
 }
-/* line 1820, ../sass/style.scss */
+/* line 1852, ../sass/style.scss */
 blockquote:before, .training blockquote:before {
   content: "\201C" !important;
   font-family: Arial;
@@ -1869,35 +1902,35 @@ blockquote:before, .training blockquote:before {
   left: 15px !important;
   top: 5px !important;
 }
-/* line 1830, ../sass/style.scss */
+/* line 1862, ../sass/style.scss */
 blockquote blockquote p, blockquote .training blockquote p, .training blockquote blockquote p {
   font-style: italic !important;
   font-size: 24px !important;
   margin-top: 0 !important;
 }
-/* line 1836, ../sass/style.scss */
+/* line 1868, ../sass/style.scss */
 blockquote cite, .training blockquote cite {
   font-style: normal !important;
   font-weight: 300 !important;
 }
 @media screen and (max-width: 576px) {
-  /* line 1811, ../sass/style.scss */
+  /* line 1843, ../sass/style.scss */
   blockquote, .training blockquote {
     padding: 30px 30px 30px 30px !important;
     text-align: left !important;
   }
-  /* line 1845, ../sass/style.scss */
+  /* line 1877, ../sass/style.scss */
   blockquote:before, .training blockquote:before {
     display: none !important;
   }
 }
 
-/* line 1851, ../sass/style.scss */
+/* line 1883, ../sass/style.scss */
 .smaller {
   font-size: 20px !important;
 }
 
-/* line 1856, ../sass/style.scss */
+/* line 1888, ../sass/style.scss */
 .tick li:before {
   content: '\2713   ';
   color: #ff6777;
@@ -1905,7 +1938,7 @@ blockquote cite, .training blockquote cite {
   font-size: 22px;
 }
 
-/* line 1864, ../sass/style.scss */
+/* line 1896, ../sass/style.scss */
 .big {
   font-size: 24px;
 }

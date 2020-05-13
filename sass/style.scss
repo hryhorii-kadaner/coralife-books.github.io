@@ -1552,6 +1552,38 @@ a.active[data-toggle="tab"] {
   
 }
 
+.helena {
+  @extend .magnit;
+
+  .text-uppercase {
+    @media screen and (max-width:768px) {
+      font-size: 22px;
+    }
+  }
+  h5 {
+    @media screen and (max-width:768px){
+      font-size:22px;
+    }
+  }
+  .central-text {
+    h5 {
+      @media screen and (max-width:768px) {
+        font-size: 22px;
+      }
+      @media screen and (max-width:576px) {
+        font-size: 18px;
+      }
+    }
+    
+  }
+  blockquote:nth-child(1) {
+    line-height: 1.7;    
+  }
+  blockquote:nth-child(2) {
+    line-height: 1.7;    
+  }
+}
+
 .magnit {
   @extend .organizer;
   .list-group-item:not(.active){
