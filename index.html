@@ -22,10 +22,21 @@
       content="Дорогой читатель, ты видишь мою первую электронную книгу-тренинг - Организатор Жизни! Я верю, что Организатор Жизни поможет открыть твои ресурсы, развить твой потенциал, найти баланс и гармонию в твоей жизни!">
 
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <link rel="stylesheet" href="https://vasyl-pilka.ml/riznobarvna-ukrayina/fancyboxCss/jquery.fancybox.min.css">
+
+   <!-- Fontawesome -->
    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <!-- OWL theme CSS -->
+   <link rel="stylesheet" href="https://ithub-coworking.com/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://ithub-coworking.com/css/owl.theme.default.min.css">
+
+   <!-- Custom CSS -->
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <link rel="stylesheet" type="text/css" href="css/navbar.css">
    <!-- jQuery 2.1.1 -->
@@ -81,8 +92,8 @@
 
    <ul class="nav nav-tabs w992 mx-auto mt-5" id="myTab" role="tablist">
       <li class="nav-item">
-         <a class="nav-link r-text active" id="helena-tab" data-toggle="tab" href="#helena" role="tab" aria-controls="helena"
-            aria-selected="true">Обо мне</a>
+         <a class="nav-link r-text active" id="helena-tab" data-toggle="tab" href="#helena" role="tab"
+            aria-controls="helena" aria-selected="true">Обо мне</a>
       </li>
       <li class="nav-item">
          <a class="nav-link r-text" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
@@ -105,92 +116,177 @@
             aria-controls="training" aria-selected="false">Личный бренд</a>
       </li>
       <li class="nav-item">
-         <a class="nav-link r-text" id="magnit-tab" data-toggle="tab" href="#magnit" role="tab"
-            aria-controls="magnit" aria-selected="false">Я - магнит</a>
+         <a class="nav-link r-text" id="magnit-tab" data-toggle="tab" href="#magnit" role="tab" aria-controls="magnit"
+            aria-selected="false">Я - магнит</a>
       </li>
    </ul>
 
    <div class="tab-content" id="myTabContent">
       <section class="helena container-fluid tab-pane fade show active" id="helena" role="tabpanel"
-      aria-labelledby="helena-tab">
-      <div class="row w992 mx-auto">
-         <div class="col-12 text-center mx-auto mt-5 mb-5">
-            <h5 class="text-uppercase">рада познакомиться</h5>
-         </div>
-         <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto mb-4">
-            <iframe src="https://www.youtube.com/embed/PerU-neW5WY" frameborder="0"
-               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-               class="d-block mx-auto "></iframe>
-         </div>
-         <div class="mx-auto col-12 ul-cont">            
-            <blockquote class="mt-3 blockquote2 lh-2">
+         aria-labelledby="helena-tab">
+         <div class="row w992 mx-auto">
+            <div class="col-12 text-center mx-auto mt-5 mb-5">
+               <h5 class="text-uppercase">рада познакомиться</h5>
+            </div>
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto mb-4">
+               <iframe src="https://www.youtube.com/embed/PerU-neW5WY" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                  class="d-block mx-auto "></iframe>
+            </div>
+            <div class="mx-auto col-12 ul-cont">
+               <blockquote class="mt-3 blockquote2 lh-2">
                   <p><span class="bld r-text">Буду полезна Вам как:</span></p>
                   <ul class="tick pl-sm-5">
-                     <li>сертифицированный практикующий коуч (командный коучинг, лайф-коучинг, бизнес-коучиг, коучинг публичных выступлений, карьерный коучинг), </li>
+                     <li>сертифицированный практикующий коуч (командный коучинг, лайф-коучинг, бизнес-коучиг, коучинг
+                        публичных выступлений, карьерный коучинг), </li>
                      <li>бизнес-тренер, </li>
-                     <li>	бизнес-консультант,</li>
-                     <li>автор и тренер трансформационных программ «Я – Магнит», «Твоя Точка отсчета», «Личный бренд», «Стань Профи», «Быстрый старт»,</li>
+                     <li> бизнес-консультант,</li>
+                     <li>автор и тренер трансформационных программ «Я – Магнит», «Твоя Точка отсчета», «Личный бренд»,
+                        «Стань Профи», «Быстрый старт»,</li>
                      <li>автор обучающих программ по продвижению в социальных сетях</li>
                      <li>эксперт по «настройке души», автор ментальных карт, медитаций, аффирмаций</li>
                      <li>консультант-нутрицилог – специалист по здоровому образу жизни</li>
                      <li>наставник - помогу создать и развивать международный бизнес в нише здоровья</li>
                   </ul>
-            </blockquote>
-            <!-- <div class="row justify-content-center m-0">
-               <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-3">
-                  <li class="list-group-item active">ДЕНЬ 1 <span class="badge badge-light">1 час</span></li>
-                  <li class="list-group-item">Мы осознаем себя. Используя определенные инструменты, начинаем составлять свой образ.</li>
-               </ul>               
-            </div> -->
+                  <br>
+                  <p><span class="bld r-text">Образование:</span></p>
+                  <div class="slider-1 owl-carousel owl-theme owl-loaded mw1280px mx-auto ">
+                     <div class="owl-stage-outer">
+                        <div class="owl-stage align-items-center d-flex">
 
-            <div class="col-12 text-center mx-auto mt-5 mb-5 central-text">
-               <h5>Моя Миссия: помогать людям в достижении их целей.
-                  И в копилке моего 16-летнего опыта есть множество эффективных инструментов!
+                           <div class="owl-item active">
+                              <div class="mx-auto" style="max-width: 400px;">
+                                 <div class="mx-auto">
+                                    <a data-fancybox="gallery" data-caption="<p class='caption-text'>Wellness - coach, нутрициолог</p>" href="images/certificates/biolog.jpg">
+                                       <img alt="JavaScript certificate of achivement"
+                                          src="images/certificates/biolog.jpg" alt="">
+                                    </a>
+                                    <p>Wellness - coach, нутрициолог</p>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="owl-item ">
+                              <div class="mx-auto" style="max-width: 400px;">
+                                 <div class="mx-auto">
+                                    <a data-fancybox="gallery" data-caption="<p class='caption-text'>Учитель информатики</p>" href="images/certificates/operator-pc.jpg" >
+                                       <img alt="CSS certificate of achivement"
+                                          src="images/certificates/operator-pc.jpg" style="max-height: 300px;" alt="">
+                                    </a>
+                                    <p>Учитель информатики</p>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="owl-item ">
+                              <div class="mx-auto" style="max-width: 400px;">
+                                 <div class="mx-auto">
+                                    <a data-fancybox="gallery" data-caption="<p class='caption-text'>Филолог, методист</p>" href="images/certificates/phylolog.jpg">
+                                       <img alt="Java certificate of achivement" src="images/certificates/phylolog.jpg"
+                                          alt="">
+                                    </a>
+                                    <p>Филолог, методист</p>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="owl-item ">
+                              <div class="mx-auto" style="max-width: 400px;">
+                                 <div class="mx-auto">
+                                    <a data-fancybox="gallery" data-caption="<p class='caption-text'>Член международной ассоциации коучей IPACT</p>" href="images/certificates/membership.jpg">
+                                       <img alt="SQL certificate of achivement" src="images/certificates/membership.jpg"
+                                          alt="">
+                                    </a>
+                                    <p>Член международной ассоциации коучей IPACT</p>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="owl-item ">
+                              <div class="mx-auto" style="max-width: 400px;">
+                                 <div class="mx-auto">
+                                    <a data-fancybox="gallery" data-caption="<p class='caption-text'>Сертифицированный коуч</p>" href="images/certificates/professional-coach.jpg">
+                                       <img alt="SQL certificate of achivement" src="images/certificates/professional-coach.jpg"
+                                          alt="">
+                                    </a>
+                                    <p>Сертифицированный коуч</p>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="owl-item ">
+                              <div class="mx-auto" style="max-width: 400px;">
+                                 <div class="mx-auto">
+                                    <a data-fancybox="gallery" data-caption="<p class='caption-text'>Спикер на международных конфренциях, бизнес-тренер</p>" href="images/certificates/participant.jpg">
+                                       <img alt="SQL certificate of achivement" src="images/certificates/participant.jpg"
+                                          alt="" style="max-height: 400px; max-width: 250px;" class="mx-auto">
+                                    </a>
+                                    <p>Спикер на международных конфренциях, бизнес-тренер</p>
+                                 </div>
+                              </div>
+                           </div>
+
+                        </div>
+
+                     </div>
+                     <div class="owl-controls">
+                        <button class="btn" id="falseNavigationLeft"><i class="fas fa-angle-left fz35"></i></button>
+                        <button class="btn" id="falseNavigationRight"><i class="fas fa-angle-right fz35"></i></button>
+                     </div>
+                  </div>
+               </blockquote>
+
+               <div class="col-12 text-center mx-auto mt-5 mb-5 central-text">
+                  <h5>Моя Миссия: помогать людям в достижении их целей.
+                     И в копилке моего 16-летнего опыта есть множество эффективных инструментов!
                   </h5>
-            </div>
+               </div>
 
-            <blockquote class="blockquote2">               
-               <h3 class="bld r-text">Со мной Вы:</h3>
-               <ul class="tick pl-sm-5 lh-2">
-                  <li>Сможете сберечь свое время, здоровье, приумножить ваши доходы, выстроить гармоничные отношения с окружающими</li>
-                  <li>Получите профессиональную помощь и видение для решения своих задач</li>
-                  <li>Осознаете варианты развития событий и выберете лучший из них</li>
-                  <li>Выявите зоны своего Личностного роста</li>
-                  <li>Обретете уверенность в себе и в своих силах</li>
-                  <li>Расширите свою “картину восприятия мира”</li>
-                  <li>Смените привычное стереотипное мышление на гибкость и вариативность</li>
-                  <li>Начнете жить истинно своей жизнью и достигать в ней успеха</li>
-                  <li>Ощутите контроль над собственной судьбой, свободу от других людей – быть собой настоящим</li>
-                  <li>Начнете просыпаться каждое утро уравновешенным, спокойным, в хорошем настроении, в ожидании, что новый день принесет успех</li>
-                  <li>Найдете свое истинное место в этом мире — найти свое предназначение и при этом наслаждаться отношениями, деньгами, веселиться и испытывать от этого удовольствие</li>
-                  <li>Научитесь делать что-то для себя, начнете любить себя и заботиться о себе</li>
-                  <li>Научитесь избавляться от обид прошлого</li>
-                  <li>Появится умение смотреть внутрь себя и находить ответы, которые Вы искали в окружающем мире...</li>
-               </ul>
-            </blockquote>
-            
-            <div class="col-12 text-center mx-auto mt-5 mb-3">
-               <h5>Стоимость 1 часа консультации = <span style="color: green; font-size: inherit;">20$</span></h5>
-            </div>
-            <div class="col-12 text-center">
-               <a href="https://api.fondy.eu/s/bEmkp" data-button=""
-                  class="f-p-b mx-auto mt-5 smallOn576 training"
-                  style="--fpb-background:#000; --fpb-color:#fff; --fpb-border-color:#000; --fpb-border-width:2px; --fpb-font-weight:700; --fpb-font-size:18px; --fpb-border-radius:30px; border-color: #000;"
-                  target="_blank">
-                  <i data-text="name">Записаться</i>
-                  <i data-text="amount">20$</i>
-                  <i data-brand="google"></i></a>
-            </div>
+               <blockquote class="blockquote2">
+                  <h3 class="bld r-text">Со мной Вы:</h3>
+                  <ul class="tick pl-sm-5 lh-2">
+                     <li>Сможете сберечь свое время, здоровье, приумножить ваши доходы, выстроить гармоничные отношения
+                        с окружающими</li>
+                     <li>Получите профессиональную помощь и видение для решения своих задач</li>
+                     <li>Осознаете варианты развития событий и выберете лучший из них</li>
+                     <li>Выявите зоны своего Личностного роста</li>
+                     <li>Обретете уверенность в себе и в своих силах</li>
+                     <li>Расширите свою “картину восприятия мира”</li>
+                     <li>Смените привычное стереотипное мышление на гибкость и вариативность</li>
+                     <li>Начнете жить истинно своей жизнью и достигать в ней успеха</li>
+                     <li>Ощутите контроль над собственной судьбой, свободу от других людей – быть собой настоящим</li>
+                     <li>Начнете просыпаться каждое утро уравновешенным, спокойным, в хорошем настроении, в ожидании,
+                        что новый день принесет успех</li>
+                     <li>Найдете свое истинное место в этом мире — найти свое предназначение и при этом наслаждаться
+                        отношениями, деньгами, веселиться и испытывать от этого удовольствие</li>
+                     <li>Научитесь делать что-то для себя, начнете любить себя и заботиться о себе</li>
+                     <li>Научитесь избавляться от обид прошлого</li>
+                     <li>Появится умение смотреть внутрь себя и находить ответы, которые Вы искали в окружающем мире...
+                     </li>
+                  </ul>
+               </blockquote>
 
-         </div>         
-         <!-- <div class="developing col-12 mx-auto text-center mt-5">
+               <div class="col-12 text-center mx-auto mt-5 mb-3">
+                  <h5>Стоимость 1 часа консультации = <span style="color: green; font-size: inherit;">20$</span></h5>
+               </div>
+               <div class="col-12 text-center">
+                  <a href="https://api.fondy.eu/s/bEmkp" data-button="" class="f-p-b mx-auto mt-5 smallOn576 training"
+                     style="--fpb-background:#000; --fpb-color:#fff; --fpb-border-color:#000; --fpb-border-width:2px; --fpb-font-weight:700; --fpb-font-size:18px; --fpb-border-radius:30px; border-color: #000;"
+                     target="_blank">
+                     <i data-text="name">Записаться</i>
+                     <i data-text="amount">20$</i>
+                     <i data-brand="google"></i></a>
+               </div>
+
+            </div>
+            <!-- <div class="developing col-12 mx-auto text-center mt-5">
            <button class="btn btn-danger" disabled=""> 
              Раздел находится в разработке <i class="spinner-border text-light" role="status"></i>
            </button>              
          </div> -->
 
-      </div>
-   </section>
+         </div>
+      </section>
 
       <section class="sec2 container-fluid tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
          <div class="row w992 mx-auto">
@@ -1233,7 +1329,7 @@
          </div>
 
       </section>
-      
+
       <section class="training container-fluid tab-pane fade" id="training" role="tabpanel" aria-labelledby="bonus-tab">
          <div class="row w992 mx-auto lh-2">
             <div class="col-12 text-center mx-auto mt-5 mb-5">
@@ -1305,117 +1401,137 @@
          </div>
       </section>
 
-      <section class="magnit container-fluid tab-pane fade" id="magnit" role="tabpanel"
-         aria-labelledby="profile-tab">
+      <section class="magnit container-fluid tab-pane fade" id="magnit" role="tabpanel" aria-labelledby="profile-tab">
          <div class="row w992 mx-auto">
             <div class="col-12 text-center mx-auto mt-5 mb-5">
-               <h5 class="text-uppercase">онлайн курс "я - магнит"<br> <span class="blue text-lowercase">(27 апреля - 4 мая)</span</h5>
-            </div>
+               <h5 class="text-uppercase">онлайн курс "я - магнит"<br> <span class="blue text-lowercase">(27 апреля - 4
+                     мая)</span</h5> </div> <div class="mx-auto col-12 ul-cont">
+                     <blockquote class="mt-3 blockquote2 lh-2">
+                        <p><span class="bld r-text">Привет! Я, Каданер Елена, автор online курса трансформации личности
+                              "Я - Магнит!"</span>. <br>
+                           В моей жизни я
+                           проявляюсь как мама двух сыновей и жена (уже отметили 20-ю годовщину); Как эксперт в обучении
+                           (по
+                           одной из 10! профессий я педагог, филолог, и методист. А значит системность, четкость,
+                           лаконичность, конкретика - мои сильные стороны); Как бизнес-тренер. Я нашла свое Дело Жизни,
+                           создала источник пассивного дохода и мой бизнес успешно развивается в 17 странах, тысячи
+                           клиентов и
+                           команда партнёров. Как организатор системы обучения и старта в интернете. По хэштегам ты
+                           увидишь
+                           отзывы моих учеников и на моем Ютуб канале много видео с бесплатным доступом. И сейчас перед
+                           вами
+                           новый курс для создания своего целостного и гармоничного "Я" - счастливого человека и целью и
+                           планом ее достижения!</p><br><br>
+                        <p><span class="bld r-text">Для кого идеально подойдет этот курс?</span> <br>
+                           Самый важный в вашей жизни человек - это Вы! И курс поможет понять себя, осознать свой
+                           потенциал и
+                           возможности для Прорыва в вашей жизни. Вы сможете обрести внутреннюю целостность и стать
+                           счастливым! <br> А ответы на эти вопросы помогут принять решение в необходимости курса для
+                           Вас
+                           именно сейчас: </p>
+                        <ul class="tick pl-sm-5">
+                           <li>Как я проявляюсь в жизни: победитель или неудачник?</li>
+                           <li>На какие ценности и убеждения я опираюсь в жизни?</li>
+                           <li>Смогу ли я реализовать свою мечту?</li>
+                           <li>От каких привычек необходимо избавиться, чтобы ощущать себя успешным?</li>
+                           <li>Хочу ли я на самом деле меняться?</li>
+                           <li>Как получать удовольствие от процесса развития, от перемен?</li>
+                           <li>Какие мои сильные стороны? Черты характера, чтобы чувствовать себя победителем?</li>
+                           <li>Как достичь желаемого уровня жизни, финансового благополучия?</li>
+                           <li>Как выйти из-под контроля других?</li>
+                           <li>Ка быть тем, кем я есть, кем себя ощущаю? Как быть, а не казаться?</li>
+                           <li>Что делает меня счастливым человеком?</li>
+                           <li>Можно ли изменить сценарий своей жизни?</li>
+                        </ul>
+                        <p>
+                           <br>
+                           Если Вы нашли для себя причины, по которым Вам стоит начать прямо сейчас пересмотреть свои
+                           убеждения, ценности и поставить новые цели, - добро пожаловать в новую реальность! К новому
+                           СЕБЕ!
+                           <br>
+                           <br>
+                           После регистрации Вы получаете рабочую тетрадь, дополнительные материалы и новое PROактивное
+                           поддерживающее окружение в телеграмм-чате!
+                        </p>
+                     </blockquote>
+                     <div class="row justify-content-center m-0">
+                        <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-3">
+                           <li class="list-group-item active">ДЕНЬ 1 <span class="badge badge-light">1 час</span></li>
+                           <li class="list-group-item">Мы осознаем себя. Используя определенные инструменты, начинаем
+                              составлять свой образ.</li>
+                        </ul>
+                        <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-md-3">
+                           <li class="list-group-item active w-100">ДЕНЬ 2 <span class="badge badge-light">1 час</span>
+                           </li>
+                           <li class="list-group-item">Осознаем себя в мире. Я в социуме. Еще один пазл к нашему образу
+                           </li>
+                        </ul>
+                        <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-0">
+                           <li class="list-group-item active w-100">ДЕНЬ 3 <span class="badge badge-light">1 час</span>
+                           </li>
+                           <li class="list-group-item">Исследуем свою реальность - сценарий жизни, который продиктован
+                              установками, программами.</li>
+                        </ul>
+                        <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-md-3">
+                           <li class="list-group-item active w-100">ДЕНЬ 4 <span class="badge badge-light">1 час</span>
+                           </li>
+                           <li class="list-group-item">Определяем важные составляющие счастья. Составляем колесо баланса
+                              вашей жизни.</li>
+                        </ul>
+                        <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-3">
+                           <li class="list-group-item active w-100">ДЕНЬ 5 <span class="badge badge-light">1 час</span>
+                           </li>
+                           <li class="list-group-item">Создаем новые убеждения и пишем сценарий лучшей версии себя.
+                              Рисуем образ.</li>
+                        </ul>
+                        <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-md-0">
+                           <li class="list-group-item active w-100">ДЕНЬ 6 <span class="badge badge-light">1 час</span>
+                           </li>
+                           <li class="list-group-item">Находим ваши мечты, цели, миссию. Создаем Видение Будущего.</li>
+                        </ul>
+                        <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-3">
+                           <li class="list-group-item active w-100">ДЕНЬ 7 <span class="badge badge-light">1 час</span>
+                           </li>
+                           <li class="list-group-item">Выводы. Решения. Ценности. Шаги на пути к новому себе. У тебя уже
+                              есть план!</li>
+                        </ul>
+                     </div>
 
-            <div class="mx-auto col-12 ul-cont">
-               <blockquote class="mt-3 blockquote2 lh-2">
-                  <p><span class="bld r-text">Привет! Я, Каданер Елена, автор online курса трансформации личности "Я - Магнит!"</span>. <br>
-                     В моей жизни я
-                     проявляюсь как мама двух сыновей и жена (уже отметили 20-ю годовщину); Как эксперт в обучении (по
-                     одной из 10! профессий я педагог, филолог, и методист. А значит системность, четкость,
-                     лаконичность, конкретика - мои сильные стороны); Как бизнес-тренер. Я нашла свое Дело Жизни,
-                     создала источник пассивного дохода и мой бизнес успешно развивается в 17 странах, тысячи клиентов и
-                     команда партнёров. Как организатор системы обучения и старта в интернете. По хэштегам ты увидишь
-                     отзывы моих учеников и на моем Ютуб канале много видео с бесплатным доступом. И сейчас перед вами
-                     новый курс для создания своего целостного и гармоничного "Я" - счастливого человека и целью и
-                     планом ее достижения!</p><br><br>
-                     <p><span class="bld r-text">Для кого идеально подойдет этот курс?</span> <br>
-                     Самый важный в вашей жизни человек - это Вы! И курс поможет понять себя, осознать свой потенциал и
-                     возможности для Прорыва в вашей жизни. Вы сможете обрести внутреннюю целостность и стать
-                     счастливым! <br> А ответы на эти вопросы помогут принять решение в необходимости курса для Вас
-                     именно сейчас: </p>
-                     <ul class="tick pl-sm-5">
-                        <li>Как я проявляюсь в жизни: победитель или неудачник?</li>
-                        <li>На какие ценности и убеждения я опираюсь в жизни?</li>
-                        <li>Смогу ли я реализовать свою мечту?</li>
-                        <li>От каких привычек необходимо избавиться, чтобы ощущать себя успешным?</li>
-                        <li>Хочу ли я на самом деле меняться?</li>
-                        <li>Как получать удовольствие от процесса развития, от перемен?</li>
-                        <li>Какие мои сильные стороны? Черты характера, чтобы чувствовать себя победителем?</li>
-                        <li>Как достичь желаемого уровня жизни, финансового благополучия?</li>
-                        <li>Как выйти из-под контроля других?</li>
-                        <li>Ка быть тем, кем я есть, кем себя ощущаю? Как быть, а не казаться?</li>
-                        <li>Что делает меня счастливым человеком?</li>
-                        <li>Можно ли изменить сценарий своей жизни?</li>
-                     </ul>
-                     <p>
-                     <br>
-                     Если Вы нашли для себя причины, по которым Вам стоит начать прямо сейчас пересмотреть свои
-                     убеждения, ценности и поставить новые цели, - добро пожаловать в новую реальность! К новому СЕБЕ!
-                     <br>
-                     <br>
-                     После регистрации Вы получаете рабочую тетрадь, дополнительные материалы и новое PROактивное поддерживающее окружение в телеграмм-чате!
-                  </p>
-               </blockquote>
-               <div class="row justify-content-center m-0">
-                  <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-3">
-                     <li class="list-group-item active">ДЕНЬ 1 <span class="badge badge-light">1 час</span></li>
-                     <li class="list-group-item">Мы осознаем себя. Используя определенные инструменты, начинаем составлять свой образ.</li>
-                  </ul>
-                  <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-md-3">
-                     <li class="list-group-item active w-100">ДЕНЬ 2 <span class="badge badge-light">1 час</span></li>
-                     <li class="list-group-item">Осознаем себя в мире. Я в социуме. Еще один пазл к нашему образу</li>
-                  </ul>
-                  <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-0">
-                     <li class="list-group-item active w-100">ДЕНЬ 3 <span class="badge badge-light">1 час</span></li>
-                     <li class="list-group-item">Исследуем свою реальность - сценарий жизни, который продиктован установками, программами.</li>
-                  </ul>
-                  <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-md-3">
-                     <li class="list-group-item active w-100">ДЕНЬ 4 <span class="badge badge-light">1 час</span></li>
-                     <li class="list-group-item">Определяем важные составляющие счастья. Составляем колесо баланса вашей жизни.</li>
-                  </ul>
-                  <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-3">
-                     <li class="list-group-item active w-100">ДЕНЬ 5 <span class="badge badge-light">1 час</span></li>
-                     <li class="list-group-item">Создаем новые убеждения и пишем сценарий лучшей версии себя. Рисуем образ.</li>
-                  </ul>
-                  <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-md-0">
-                     <li class="list-group-item active w-100">ДЕНЬ 6 <span class="badge badge-light">1 час</span></li>
-                     <li class="list-group-item">Находим ваши мечты, цели, миссию. Создаем Видение Будущего.</li>
-                  </ul>
-                  <ul class="list-group mt-3 col-12 col-sm-6 col-md-4 p-0 pr-sm-3 pr-md-3">
-                     <li class="list-group-item active w-100">ДЕНЬ 7 <span class="badge badge-light">1 час</span></li>
-                     <li class="list-group-item">Выводы. Решения. Ценности. Шаги на пути к новому себе. У тебя уже есть план!</li>
-                  </ul>
-               </div>
+                     <div class="col-12 text-center mx-auto mt-5 mb-5">
+                        <h5>7 дней по 1 часу <br> Для себя, любимого</h5>
+                     </div>
 
-               <div class="col-12 text-center mx-auto mt-5 mb-5">
-                  <h5>7 дней по 1 часу <br> Для себя, любимого</h5>
-               </div>
-
-               <blockquote class="blockquote2">
-                  <p>Скорость, с которой мы живем, не всегда располагает нас к осознанию процессов, происходящих внутри
-                     нас. <br><br>Поэтому найдите для себя 7 часов времени для проработки этих мощнейших практик!</p>
-                  <h3 class="bld r-text">В процессе обучения мы сконцентрируем внимание на:</h3>
-                  <ul class="tick pl-sm-5 lh-2">
-                     <li>будущем</li>
-                     <li>поиске решений</li>
-                     <li>собственных ресурсах</li>
-                     <li>позитивных формулировках</li>
-                     <li>системе действий по четкому плану</li>
-                  </ul>
-               </blockquote>
-               <div class="col-12 text-center mx-auto mt-5 mb-3">
-                  <h5>Отзывы</h5>
-               </div>
-               <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
-                  <iframe src="https://www.youtube.com/embed/PerU-neW5WY" frameborder="0"
-                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                     class="d-block mx-auto "></iframe>
-               </div>
-               <div class="col-12 text-center">
-                  <a href="https://api.fondy.eu/s/AJud6Xp45jWqnWc8" data-button=""
-                     class="f-p-b mx-auto mt-5 smallOn576 training"
-                     style="--fpb-background:#000; --fpb-color:#fff; --fpb-border-color:#000; --fpb-border-width:2px; --fpb-font-weight:700; --fpb-font-size:18px; --fpb-border-radius:30px; border-color: #000;"
-                     target="_blank">
-                     <i data-text="name">Купить курс</i>
-                     <i data-text="amount">100 USD</i>
-                     <i data-brand="google"></i></a>
-               </div>
+                     <blockquote class="blockquote2">
+                        <p>Скорость, с которой мы живем, не всегда располагает нас к осознанию процессов, происходящих
+                           внутри
+                           нас. <br><br>Поэтому найдите для себя 7 часов времени для проработки этих мощнейших практик!
+                        </p>
+                        <h3 class="bld r-text">В процессе обучения мы сконцентрируем внимание на:</h3>
+                        <ul class="tick pl-sm-5 lh-2">
+                           <li>будущем</li>
+                           <li>поиске решений</li>
+                           <li>собственных ресурсах</li>
+                           <li>позитивных формулировках</li>
+                           <li>системе действий по четкому плану</li>
+                        </ul>
+                     </blockquote>
+                     <div class="col-12 text-center mx-auto mt-5 mb-3">
+                        <h5>Отзывы</h5>
+                     </div>
+                     <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <iframe src="https://www.youtube.com/embed/PerU-neW5WY" frameborder="0"
+                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen class="d-block mx-auto "></iframe>
+                     </div>
+                     <div class="col-12 text-center">
+                        <a href="https://api.fondy.eu/s/AJud6Xp45jWqnWc8" data-button=""
+                           class="f-p-b mx-auto mt-5 smallOn576 training"
+                           style="--fpb-background:#000; --fpb-color:#fff; --fpb-border-color:#000; --fpb-border-width:2px; --fpb-font-weight:700; --fpb-font-size:18px; --fpb-border-radius:30px; border-color: #000;"
+                           target="_blank">
+                           <i data-text="name">Купить курс</i>
+                           <i data-text="amount">100 USD</i>
+                           <i data-brand="google"></i></a>
+                     </div>
 
             </div>
 
@@ -1658,7 +1774,7 @@
 
          </div>
       </section>
-     
+
       <script src="js/checker.js"></script>
    </div>
    <!-- <input type="submit" id="submit" value="Отправить" class="btn btn-danger mt-3" onclick="hideshow();" /> -->
@@ -1756,12 +1872,16 @@
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
    </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-   </script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
    </script>
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/owl.carousel.js"></script>
+   <script src="js/owl.autoplay.js"></script>
+   <script src="js/owl-start.js"></script>
+
+   <script src="https://vasyl-pilka.ml/riznobarvna-ukrayina/js/jquery.fancybox.min.js"></script>
 </body>
 
 </html>

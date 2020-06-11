@@ -8,7 +8,6 @@
 
 * {
   font-family: "Montserrat", serif !important;
-  transition: .3s linear;
 }
 
 .hid {
@@ -1551,7 +1550,10 @@ a.active[data-toggle="tab"] {
   }
   
 }
-
+.caption-text {
+  font-size: 17px;
+  font-weight: bold;
+}
 .helena {
   @extend .magnit;
 
@@ -1581,6 +1583,47 @@ a.active[data-toggle="tab"] {
   }
   blockquote:nth-child(2) {
     line-height: 1.7;    
+  }
+
+  .slider-1 {
+    text-align: center;
+    * .active {
+      background: none;
+    }
+    .owl-stage-outer{
+      .owl-stage {
+        .owl-item {
+          p {
+            margin-top: 10px;
+            color:gray;
+            font-size: 15px;
+          }
+        }
+      }      
+    }
+
+    
+    #falseNavigationLeft, #falseNavigationRight {
+      position: absolute;
+      border:1px solid lightgray;
+      padding: 5px 13px;
+      border-radius: 50%;
+      background-color: #fff;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      box-shadow: 0 5px 10px gray;
+      &:focus, &:hover {
+        outline: none;
+        box-shadow: 0 5px 5px gray;
+      }
+    }
+    #falseNavigationLeft{
+      left: -10px;
+    }
+    #falseNavigationRight {
+      right: -10px;
+    }
   }
 }
 
@@ -1625,8 +1668,9 @@ footer {
   z-index: 1000;
   font-family: 'Montserrat', serif;
 
-  a {
+  * a {
     color: white !important;
+    transition: .3s linear;
   }
 }
 
@@ -1663,12 +1707,10 @@ footer p {
 
     a {
       color: lightgray;
-      transition: .5s;
 
       &:hover {
         color: white;
         text-decoration: none;
-        transition: .5s;
       }
 
     }
@@ -1724,19 +1766,16 @@ footer p {
 .mailto_link {
   text-decoration: none;
   color: white;
-  transition: .5s;
 
   a {
     text-decoration: none;
     color: white;
-    transition: .5s;
   }
 
   &:hover,
   a:hover {
     color: $rd !important;
     text-decoration: unset;
-    transition: .3s;
   }
 }
 
@@ -1775,7 +1814,6 @@ footer p {
       width: 2em;
       height: 2em;
       text-align: center;
-      transition: .6s;
     }
 
     a {
@@ -1785,8 +1823,7 @@ footer p {
       color: white;
       border: 1px solid #CCC;
       padding: 8px;
-      border-radius: 50%;
-      transition: .6s;
+      border-radius: 50%;      
       display: block;
       margin-bottom: 1em;
       text-align: center;

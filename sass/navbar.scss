@@ -3,14 +3,14 @@
 
 * {
 	font-family: "Montserrat", serif!important;
-	transition: .3s linear;
+	
 }
 
 .navbar {
 	background: unset!important;
 	position: fixed;
 	width: 100%;
-	z-index: 99999;
+	z-index: 999;
 	transition: background .3s linear;
 	&:hover {
 		background: linear-gradient(to right, rgb(255, 102, 125), rgb(255, 102, 0))!important;
